@@ -1,0 +1,25 @@
+{
+  "name": "formabox-paperboard",
+  "version": "1.0.0",
+  "description": "сайт визитка фабрики по производству изделий из картона",
+  "main": "index.js",
+  "scripts": {
+    "build": "rd /s /q dist && webpack",
+    "dev": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vasyankin-Alexander-Henchfiend/formabox-paperboard.git"
+  },
+  "author": "Васянькин Александр",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vasyankin-Alexander-Henchfiend/formabox-paperboard/issues"
+  },
+  "homepage": "https://github.com/Vasyankin-Alexander-Henchfiend/formabox-paperboard#readme",
+  "devDependencies": {
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
