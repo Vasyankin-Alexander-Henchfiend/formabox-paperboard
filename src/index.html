@@ -8,12 +8,53 @@
   <body class="root">
     <div class="page">
       <header class="header">
-        <img class="header__logo" src="" alt="логотип компании Formabox" />
+        <img class="header__logo" src="<%=require('./img/logo/logo-white.svg')%>" alt="логотип компании Formabox" />
       </header>
       <main class="content">
         <section class="slider"></section>
-        <section class="about"></section>
-        <section class="products"></section>
+
+        <section class="about">
+          <div class="about__title-and-video-container">
+            <div class="text-container">
+              <h2 class="title">О компании</h2>
+              <p class="subtitle">
+                Formabox обладает мощной производственной базой, поэтому заказ
+                любого масштаба будет выполнен в срок
+              </p>
+              <p class="text">
+                Наше выгодное отличие от других производителей — широкий спектр
+                выпускаемой продукции. Помимо упаковок и коробок разной формы и
+                размера, Formabox производит картонные и бумажные мешки, втулки,
+                гильзы и шпули.
+              </p>
+            </div>
+            <video src="https://vkvideo.ru/video-219828625_456239022"></video>
+          </div>
+          <ul class="about__list">
+            <li class="about__list-item">
+              <img src="<%=require('./img/icons/users.svg')%>" alt="Иконка люди" class="about__list-item-icon">
+              <div class="about__list-item-text-container">
+                <h3 class="title">Специалисты</h3>
+                <p class="subtitle">для поиска упаковочных решений</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="products">
+          <div>
+            <h2></h2>
+            <p></p>
+          </div>
+          <div>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </section>
         <section class="technology"></section>
         <section class="feedback-form"></section>
       </main>
