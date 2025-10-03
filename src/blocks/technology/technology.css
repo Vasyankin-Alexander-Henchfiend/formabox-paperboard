@@ -1,0 +1,20 @@
+.technology {
+    margin: 84px 0 0;
+}
+
+.technology__main-image {
+  width: 58.02px;
+  height: 54px;
+}
+
+.technology__title-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 214px auto;
+  justify-items: center;
+}
+
+.technology__main-text {
+    width: 100%;
+    grid-column: span 2;
+}

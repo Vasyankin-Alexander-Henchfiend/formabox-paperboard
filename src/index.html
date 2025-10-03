@@ -8,12 +8,18 @@
   <body class="root">
     <div class="page">
       <header class="header">
-        <img class="header__logo" src="<%=require('./img/logo/logo-white.svg')%>" alt="логотип компании Formabox" />
+        <img
+          class="header__logo"
+          src="<%=require('./img/logo/logo-white.svg')%>"
+          alt="логотип компании Formabox"
+        />
       </header>
       <main class="content">
         <section class="slider"></section>
 
+        <!-- секция О компании -->
         <section class="about">
+          <!-- описание и видео -->
           <div class="about__title-and-video-container">
             <div class="text-container">
               <h2 class="title">О компании</h2>
@@ -30,32 +36,139 @@
             </div>
             <video src="https://vkvideo.ru/video-219828625_456239022"></video>
           </div>
+
+          <!-- список спецификаций компании -->
           <ul class="about__list">
             <li class="about__list-item">
-              <img src="<%=require('./img/icons/users.svg')%>" alt="Иконка люди" class="about__list-item-icon">
+              <img
+                src="<%=require('./img/icons/users.svg')%>"
+                alt="Люди"
+                class="about__list-item-icon"
+              />
               <div class="about__list-item-text-container">
                 <h3 class="title">Специалисты</h3>
                 <p class="subtitle">для поиска упаковочных решений</p>
               </div>
             </li>
+            <li class="about__list-item">
+              <img
+                src="<%=require('./img/icons/settings.svg')%>"
+                alt="Технологии"
+                class="about__list-item-icon"
+              />
+              <div class="about__list-item-text-container">
+                <h3 class="title">Лаборатория</h3>
+                <p class="subtitle">входного сырья и готовой продукции</p>
+              </div>
+            </li>
+            <li class="about__list-item">
+              <img
+                src="<%=require('./img/icons/heart.svg')%>"
+                alt="Здоровье"
+                class="about__list-item-icon"
+              />
+              <div class="about__list-item-text-container">
+                <h3 class="title">Экологичность</h3>
+                <p class="subtitle">Formabox производит упаковку из экологичных материалов</p>
+              </div>
+            </li>
+            <li class="about__list-item">
+              <img
+                src="<%=require('./img/icons/codepen.svg')%>"
+                alt="Контрукция"
+                class="about__list-item-icon"
+              />
+              <div class="about__list-item-text-container">
+                <h3 class="title">12 000 <span>м&#178;</span></h3>
+                <p class="subtitle">Площадь производственно-складского комплекса</p>
+              </div>
+            </li>
           </ul>
         </section>
+
+
+        <!-- секция Продукция -->
         <section class="products">
+
+          <!-- Заголовок и описание -->
           <div>
-            <h2></h2>
-            <p></p>
+            <h2 class="title">Продукция</h2>
+            <p class="text">
+              В ассортимент нашей продукции входят разные профили гофрокартона в
+              зависимости от количества слоев
+            </p>
           </div>
-          <div>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </div>
+
+          <!-- Список продуктов -->
+          <ul class="products__list">
+            <li class="products__list-item">
+              <img
+                class="products__list-item-image"
+                src="<%=require('./img/microgofrocard.png')%>"
+                alt="Микрогофрокартон"
+              />
+              <div class="products__list-text-container">
+                <h3 class="title">Микрогофрокартон</h3>
+                <p class="text">
+                  Оптимальный материал для производства коробок, который
+                  отличается экологичностью, небольшим весом и
+                  много-функциональностью. Примечательно, что при изготовлении
+                  гофрокартона можно использовать бумагу и картон из макулатуры.
+                </p>
+              </div>
+            </li>
+            <li class="products__list-item">
+              <img
+                class="products__list-item-image"
+                src="<%=require('./img/image 11.png')%>"
+                alt="Трехслойный гофрокартон"
+              />
+              <div class="products__list-text-container">
+                <h3 class="title">Трехслойный гофрокартон</h3>
+                <p class="text">
+                  Состоит из двух плоских слоев (лайнер) и одного гофрированного
+                  слоя (флютинг)
+                </p>
+              </div>
+            </li>
+            <li class="products__list-item">
+              <img
+                class="products__list-item-image"
+                src="<%=require('./img/image 12.png')%>"
+                alt="Пятислойный гофрокартон"
+              />
+              <div class="products__list-text-container">
+                <h3 class="title">Пятислойный гофрокартон</h3>
+                <p class="text">
+                  Состоит из трех плоских (лайнер) и двух гофрированных
+                  (флютинг) слоев
+                </p>
+              </div>
+            </li>
+          </ul>
         </section>
-        <section class="technology"></section>
+
+        <!-- секция Технологии и производство -->
+        <section class="technology">
+          <div class="technology__title-container">
+            <h2 class="title">Технологии и производство</h2>
+            <img class="technology__main-image" src="<%=require('./img/recycle.png')%>" alt="Знак переработка отходов">
+            <p class="text technology__main-text">Для оперативного выполнения заказов любого масштаба мы располагаем двумя гофроагрегаторами. Производственная линия оснащена новейшим оборудованием Cangzhou Zhenxing Packaging Machinery Co</p>
+          </div>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <div>
+            <img src="" alt="">
+            <div></div>
+          </div>
+          <ul></ul>
+        </section>
+
+        <!-- секция форма обратной связи -->
         <section class="feedback-form"></section>
       </main>
       <footer class="footer"></footer>
