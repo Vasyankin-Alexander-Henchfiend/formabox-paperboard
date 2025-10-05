@@ -1,0 +1,44 @@
+.specs-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.specs-list__item {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.specs-list__item-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.specs-list__item-text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.specs-list__title {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.specs-list__subtitle {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+}
