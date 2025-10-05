@@ -200,7 +200,19 @@
       </section>
 
       <!-- секция форма обратной связи -->
-      <section class="feedback-form"></section>
+      <section class="feedback-form">
+        <div class="feedback-form__text-container">
+          <h2 class="feedback-form__title">Консультация специалиста</h2>
+          <p class="feedback-form__subtitle">Оставьте ваши контактные данные и мы свяжемся с Вами для уточнения Вашего интереса и вместе выберем удобное
+            время для встречи</p>
+        </div>
+        <form action="">
+          <input placeholder="Ваше имя" type="text">
+          <input placeholder="Телефон" type="text">
+          <input placeholder="Эл. почта" type="text">
+        </form>
+        <button type="submit">Отправить <img src="<%=require('./img/icons/arrow.svg')%>" alt=""></button>
+      </section>
     </main>
     <footer class="footer"></footer>
   </div>
