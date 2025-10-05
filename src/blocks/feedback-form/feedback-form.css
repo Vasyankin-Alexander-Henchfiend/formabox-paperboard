@@ -31,3 +31,26 @@
     letter-spacing: 0%;
     text-align: center;
 }
+
+.feedback-form__form {
+    width: 100%;
+}
+
+.feedback-form__input {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+.feedback-form__button {
+    width: 191px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #38AB57;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
