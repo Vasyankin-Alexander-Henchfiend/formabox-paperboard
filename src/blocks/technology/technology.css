@@ -12,9 +12,37 @@
   width: 100%;
   grid-template-columns: 214px auto;
   justify-items: center;
+  row-gap: 8px;
 }
 
 .technology__main-text {
     width: 100%;
     grid-column: span 2;
+}
+
+.technology__tags-list {
+  margin: 24px 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  overflow: hidden;
+}
+
+.technology__tags-list-item {
+    font-family: Graphik LCG;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border-radius: 40px;
+    white-space: nowrap
+}
+
+.technology__tags-list-item_active {
+  background-color: #38AB57;
+  padding: 10px 24px;
 }
