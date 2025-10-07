@@ -1,56 +1,81 @@
 .feedback-form {
-    width: 100%;
-    background: #F8F3F3;
-    border-radius: 8px;
-    margin: 48px -16px 0;
-    padding: 32px 16px 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f8f3f3;
+  border-radius: 8px;
+  margin: 48px -16px 0;
+  padding: 32px 16px 40px;
 }
 
 .feedback-form__text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
 }
 
 .feedback-form__title {
-    font-family: Graphik LCG;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0%;
+  font-family: Graphik LCG;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
 }
 
 .feedback-form__subtitle {
-    font-family: Graphik LCG;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0%;
-    text-align: center;
+  font-family: Graphik LCG;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
 .feedback-form__form {
-    width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 27px;
 }
 
 .feedback-form__input {
-    width: 100%;
-    border: none;
-    border-radius: 8px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.feedback-form__input::placeholder {
+  font-family: Graphik LCG;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  opacity: 20%;
 }
 
 .feedback-form__button {
-    width: 191px;
-    height: 40px;
-    border-radius: 100px;
-    background-color: #38AB57;
-    color: white;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+  width: 191px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #38ab57;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.feedback-form__button-icon {
+  width: 16px;
+  height: 16px;
 }
