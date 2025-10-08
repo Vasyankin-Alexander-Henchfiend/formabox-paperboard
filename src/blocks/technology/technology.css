@@ -5,8 +5,7 @@
 .technology__title-container {
   display: grid;
   width: 100%;
-  grid-template-columns: 214px auto;
-  justify-items: center;
+  grid-template-columns: 216px auto;
   align-items: center;
   row-gap: 8px;
 }
@@ -74,10 +73,19 @@
   margin-bottom: 32px;
 }
 
-.technology__card-image {
+.technology__card-image-container {
   width: 100%;
   height: 200px;
+  overflow: hidden;
+}
+
+.technology__card-image {
+  height: 200px;
   object-fit: cover;
+  width: 100%;
+  scale: 1.2;
+  margin-top: 11px;
+  margin-left: -4px;
 }
 
 .technology__card-description {
@@ -85,7 +93,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 18px;
+  gap: 19px;
 }
 
 .technology__card-description-subtitle {
@@ -108,12 +116,15 @@
 }
 
 .technology__card-description-list {
-  margin: 8px 0 0 15px;
-  padding: 0;
   color: #8c7d76;
+  margin: 8px 0 0 13px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.technology__card-description-list-item span {
+.technology__card-description-list-item {
   font-family: Graphik LCG;
   font-weight: 400;
   font-style: Regular;

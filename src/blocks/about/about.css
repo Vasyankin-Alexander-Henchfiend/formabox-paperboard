@@ -21,3 +21,9 @@
   width: 100%;
   gap: 8px;
 }
+
+.about__video {
+  width: 288px;
+  height: 162;
+  border-radius: 8px;
+}

@@ -35,10 +35,13 @@
                 гильзы и шпули.
               </p>
             </div>
-            <video >
-              <source href="https://vkvideo.ru/video-219828625_456239022" type="video/mp4">
-              Ваш браузер не поддерживает встроенные видео
-            </video>
+            <!-- <iframe
+              src="https://vk.com/video_ext.php?oid=-219828625&id=456239022&hd=2"
+              allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
+              frameborder="0"
+              allowfullscreen
+              class="about__video"
+            ></iframe> -->
           </div>
 
           <!-- список спецификаций компании -->
@@ -216,35 +219,42 @@
 
           <!-- карточка технологии -->
           <div class="technology__card-container">
-            <img
-              class="technology__card-image"
-              src="<%=require('./img/production-line.png')%>"
-              alt="производственная линия"
-            />
+            <div class="technology__card-image-container">
+              <img
+                class="technology__card-image"
+                src="<%=require('./img/production-line.png')%>"
+                alt="производственная линия"
+              />
+            </div>
             <div class="technology__card-description">
               <div class="technology__card-description-container">
                 <p class="technology__card-description-subtitle">
                   Гофрировальный агрегат WJ200-2200
                 </p>
                 <h3 class="technology__card-description-title">
-                  Линия по производству трёх- и пятислойного гофрокартона:
+                  Линия по&nbsp;производству трёх- и&nbsp;пятислойного
+                  гофрокартона:
                 </h3>
                 <ul class="technology__card-description-list">
                   <li class="technology__card-description-list-item">
-                    <span>3-слойный гофрокартон, профиль В и С</span>
+                    3-слойный гофрокартон, профиль&nbsp;В&nbsp;и&nbsp;С
                   </li>
                   <li class="technology__card-description-list-item">
-                    <span>5-слойный гофрокартон, профиль В и С</span>
+                    5-слойный гофрокартон, профиль&nbsp;ВС
                   </li>
                   <li class="technology__card-description-list-item">
-                    <span>Эффективная ширина — 2200 мм</span>
+                    Эффективная ширина&nbsp;&mdash; 2200&nbsp;мм
                   </li>
                   <li class="technology__card-description-list-item">
-                    <span>Скорость работы — 200 м/мин</span>
+                    Скорость работы&nbsp;&mdash; 200&nbsp;<span
+                      style="white-space: nowrap"
+                      >м/мин</span
+                    >
                   </li>
                   <li class="technology__card-description-list-item">
-                    <span
-                      >Производительность — 9 млн <span>м&#178;</span>/мес</span
+                    Производительность&nbsp;&mdash; 9&nbsp;<span
+                      style="white-space: nowrap"
+                      >млн&nbsp;м&sup2;/мес</span
                     >
                   </li>
                 </ul>
@@ -254,22 +264,24 @@
                   Гофрировальный агрегат WJ100-1600
                 </p>
                 <h3 class="technology__card-description-title">
-                  Линия по производству трёхслойного гофрокартона:
+                  Линия по&nbsp;производству трёхслойного гофрокартона:
                 </h3>
                 <ul class="technology__card-description-list">
                   <li class="technology__card-description-list-item">
-                    <span>3-слойный микрогофрокартон</span>
+                    3-слойный микрогофрокартон
                   </li>
                   <li class="technology__card-description-list-item">
-                    <span>Эффективная ширина — 1600 мм</span>
+                    Эффективная ширина&nbsp;&mdash; 1600&nbsp;мм
                   </li>
                   <li class="technology__card-description-list-item">
-                    <span>Скорость работы — 100 м/мин</span>
+                    Скорость работы&nbsp;&mdash; 100&nbsp;<span
+                      style="white-space: nowrap"
+                      >м/мин</span>
                   </li>
                   <li class="technology__card-description-list-item">
-                    <span
-                      >Производительность — 3 млн <span>м&#178;</span>/мес</span
-                    >
+                    Производительность&nbsp;&mdash; 3&nbsp;<span
+                      style="white-space: nowrap"
+                      >млн м&sup2;/мес</span>
                   </li>
                 </ul>
               </div>
@@ -347,7 +359,12 @@
             />
           </form>
           <button class="feedback-form__button" type="submit">
-            Отправить <img class="feedback-form__button-icon" src="<%=require('./img/icons/arrow.svg')%>" alt="стрелка" />
+            Отправить
+            <img
+              class="feedback-form__button-icon"
+              src="<%=require('./img/icons/arrow.svg')%>"
+              alt="стрелка"
+            />
           </button>
         </section>
       </main>
@@ -358,7 +375,7 @@
           alt="логотип компании Formabox"
         />
 
-        <ul style="visibility: hidden; display: none;">
+        <ul style="visibility: hidden; display: none">
           <li>О нас</li>
           <li>Продукция</li>
           <li>Услуги</li>
@@ -371,10 +388,10 @@
         </ul>
 
         <p class="footer__contacts-text footer__adress">
-          600016, Владимирская&nbspобласть, г.&nbspВладимир, ул.&nbspБольшая&nbspНижегородская,
-          д.&nbsp79
+          600016, Владимирская&nbsp;область, г.&nbsp;Владимир,<br />
+          ул.&nbsp;Большая&nbsp;Нижегородская, д.&nbsp;79
           <br /><br />
-          Время работы: пн–пт с&nbsp9:00 до&nbsp18:00
+          Время работы:<br />пн–пт с&nbsp;9:00 до&nbsp;18:00
         </p>
 
         <div class="footer__contacts-container">
