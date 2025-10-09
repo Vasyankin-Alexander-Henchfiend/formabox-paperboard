@@ -2,13 +2,13 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  margin-top: 65px;
+  margin-top: 64px;
 }
 
 .products__text-container {
   display: flex;
   flex-direction: column;
-  gap: 7px;
+  gap: 8px;
 }
 
 .products__title {
@@ -82,12 +82,21 @@
 }
 
 
-/* первый и последний */
-/* scale: 1.16;
-margin-top: 30px; */
+.products__list .products__list-item:first-child img {
+  scale: 1.16;
+  margin-top: 21px;
+}
 
-/* второй
-scale: 0.9; */
+.products__list .products__list-item:nth-child(2) img {
+  scale: 0.9;
+  margin-top: 1px;
+}
 
-/* третий и четвертый 
-margin-top: -11px; */
+.products__list .products__list-item:nth-child(3) img, .products__list .products__list-item:nth-child(4) img {
+  margin-top: -11px;
+}
+
+.products__list .products__list-item:last-child img {
+  scale: 1.16;
+  margin-top: 30px;
+}

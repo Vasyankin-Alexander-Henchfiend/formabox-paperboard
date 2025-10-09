@@ -14,6 +14,10 @@
   margin-bottom: 32px;
 }
 
+.specs-list__item_gap_big {
+  gap: 18px
+}
+
 .specs-list__item:last-child {
   margin-bottom: 0;
 }
