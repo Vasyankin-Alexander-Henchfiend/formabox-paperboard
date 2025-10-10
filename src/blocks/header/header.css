@@ -1,0 +1,22 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 16px;
+  box-sizing: border-box;
+}
+
+.header__logo {
+  width: 68.84616088867188px;
+  height: 40px;
+}
+
+.header__menu-icon {
+  width: 24px;
+  aspect-ratio: 1/1;
+}
