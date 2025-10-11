@@ -52,7 +52,16 @@
   position: relative;
 }
 
-.about__video {
+.about__video-preview-container {
+  width: 100%;
+  height: 100%;
+}
+
+.about__video-preview-container_display_none {
+  display: none;
+}
+
+.about__video-preview {
   width: 100%;
   object-fit: contain;
   scale: 1.3;
@@ -76,4 +85,9 @@
 .about__video-play-button-icon {
   width: 7.5px;
   height: 10px;
+}
+
+.about__video {
+  width: 100%;
+  height: 100%;
 }

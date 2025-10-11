@@ -1,543 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
 
-  <body class="root">
-    <div class="page">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
 
-      <header class="header">
-        <img
-          class="header__logo"
-          src="<%=require('./img/logo/logo-white.svg')%>"
-          alt="логотип компании Formabox"
-        />
-        <img
-          id="header-menu-icon"
-          class="header__menu-icon"
-          src="<%=require('./img/icons/menu.svg')%>"
-          alt="иконка меню"
-        />
-      </header>
+<body class="root">
+  <div class="page">
 
-      <main class="content">
+    <header class="header">
+      <img class="header__logo" src="<%=require('./img/logo/logo-white.svg')%>" alt="логотип компании Formabox" />
+      <img id="header-menu-icon" class="header__menu-icon" src="<%=require('./img/icons/menu.svg')%>"
+        alt="иконка меню" />
+    </header>
 
-        <!-- слайдер -->
-        <section class="slider">
-          <div class="slider__slide">
-            <div class="slider__image-wrap">
+    <main class="content">
+
+      <!-- слайдер -->
+      <section class="slider">
+        <div class="slider__slide">
+          <div class="slider__image-wrap">
+            <img src="" alt="">
+          </div>
+          <div class="slider__slide-text-container">
+            <h2></h2>
+            <button>
               <img src="" alt="">
-            </div>
-            <div class="slider__slide-text-container">
-              <h2></h2>
-              <button>
-                <img src="" alt="">
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- секция О компании -->
+      <section class="about">
+        <!-- описание и видео -->
+        <div class="about__title-and-video-container">
+          <div class="about__text-container">
+            <h2 class="about__title">О компании</h2>
+            <p class="about__subtitle">
+              Formabox обладает мощной производственной базой, поэтому заказ
+              любого масштаба будет выполнен в срок
+            </p>
+            <p class="about__text">
+              Наше выгодное отличие от других производителей — широкий спектр
+              выпускаемой продукции. Помимо упаковок и коробок разной формы и
+              размера, Formabox производит картонные и бумажные мешки, втулки,
+              гильзы и шпули.
+            </p>
+          </div>
+          <div id="about-video-wrap" class="about__video-wrap">
+            <div id="about-video-preview-container" class="about__video-preview-container">
+              <img class="about__video-preview" src="<%=require('./img/image-59.png')%>" alt="превью видео" />
+              <button id="about-video-play" class="about__video-play-button">
+                <img class="about__video-play-button-icon" src="<%=require('./img/icons/vector.svg')%>"
+                  alt="иконка плей" />
               </button>
             </div>
+            <!-- <iframe src="https://vk.com/video_ext.php?oid=-219828625&id=456239022&hd=2"
+              allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0"
+              allowfullscreen class="about__video"></iframe> -->
           </div>
-        </section>
 
-        <!-- секция О компании -->
-        <section class="about">
-          <!-- описание и видео -->
-          <div class="about__title-and-video-container">
-            <div class="about__text-container">
-              <h2 class="about__title">О компании</h2>
-              <p class="about__subtitle">
-                Formabox обладает мощной производственной базой, поэтому заказ
-                любого масштаба будет выполнен в срок
+        </div>
+
+        <!-- список спецификаций компании -->
+        <ul class="specs-list">
+          <li class="specs-list__item specs-list__item_margin-bottom_small">
+            <img src="<%=require('./img/icons/users.svg')%>" alt="Люди" class="specs-list__item-icon" />
+            <div class="specs-list__item-text-container">
+              <h3 class="specs-list__title specs-list__title_size_small">
+                Специалисты
+              </h3>
+              <p class="specs-list__subtitle">
+                для поиска упаковочных<br />решений
               </p>
-              <p class="about__text">
-                Наше выгодное отличие от других производителей — широкий спектр
-                выпускаемой продукции. Помимо упаковок и коробок разной формы и
-                размера, Formabox производит картонные и бумажные мешки, втулки,
-                гильзы и шпули.
+            </div>
+          </li>
+          <li class="specs-list__item">
+            <img src="<%=require('./img/icons/settings.svg')%>" alt="Технологии" class="specs-list__item-icon" />
+            <div class="specs-list__item-text-container">
+              <h3 class="specs-list__title specs-list__title_size_small">
+                Лаборатория
+              </h3>
+              <p class="specs-list__subtitle">
+                входного сырья и готовой продукции
               </p>
             </div>
-            <div class="about__video-wrap">
-              <img
-                class="about__video"
-                src="<%=require('./img/image-59.png')%>"
-                alt="превью видео"
-              />
-              <button class="about__video-play-button">
-                <img
-                  class="about__video-play-button-icon"
-                  src="<%=require('./img/icons/vector.svg')%>"
-                  alt="иконка плей"
-                />
-              </button>
+          </li>
+          <li class="specs-list__item">
+            <img src="<%=require('./img/icons/heart.svg')%>" alt="Здоровье" class="specs-list__item-icon" />
+            <div class="specs-list__item-text-container">
+              <h3 class="specs-list__title specs-list__title_size_small">
+                Экологичность
+              </h3>
+              <p class="specs-list__subtitle">
+                Formabox производит упаковку из экологичных материалов
+              </p>
             </div>
-            <!-- <iframe
-              src="https://vk.com/video_ext.php?oid=-219828625&id=456239022&hd=2"
-              allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
-              frameborder="0"
-              allowfullscreen
-              class="about__video"
-            ></iframe> -->
-          </div>
-
-          <!-- список спецификаций компании -->
-          <ul class="specs-list">
-            <li class="specs-list__item specs-list__item_margin-bottom_small">
-              <img
-                src="<%=require('./img/icons/users.svg')%>"
-                alt="Люди"
-                class="specs-list__item-icon"
-              />
-              <div class="specs-list__item-text-container">
-                <h3 class="specs-list__title specs-list__title_size_small">
-                  Специалисты
-                </h3>
-                <p class="specs-list__subtitle">
-                  для поиска упаковочных<br />решений
-                </p>
-              </div>
-            </li>
-            <li class="specs-list__item">
-              <img
-                src="<%=require('./img/icons/settings.svg')%>"
-                alt="Технологии"
-                class="specs-list__item-icon"
-              />
-              <div class="specs-list__item-text-container">
-                <h3 class="specs-list__title specs-list__title_size_small">
-                  Лаборатория
-                </h3>
-                <p class="specs-list__subtitle">
-                  входного сырья и готовой продукции
-                </p>
-              </div>
-            </li>
-            <li class="specs-list__item">
-              <img
-                src="<%=require('./img/icons/heart.svg')%>"
-                alt="Здоровье"
-                class="specs-list__item-icon"
-              />
-              <div class="specs-list__item-text-container">
-                <h3 class="specs-list__title specs-list__title_size_small">
-                  Экологичность
-                </h3>
-                <p class="specs-list__subtitle">
-                  Formabox производит упаковку из экологичных материалов
-                </p>
-              </div>
-            </li>
-            <li class="specs-list__item specs-list__item_margin-bottom_small">
-              <img
-                src="<%=require('./img/icons/codepen.svg')%>"
-                alt="Контрукция"
-                class="specs-list__item-icon"
-              />
-              <div class="specs-list__item-text-container">
-                <h3 class="specs-list__title specs-list__title_size_big">
-                  12 000 <span>м&#178;</span>
-                </h3>
-                <p class="specs-list__subtitle">
-                  Площадь производственно-складского комплекса
-                </p>
-              </div>
-            </li>
-            <li class="specs-list__item">
-              <img
-                src="<%=require('./img/icons/layers.svg')%>"
-                alt="Контрукция"
-                class="specs-list__item-icon"
-              />
-              <div class="specs-list__item-text-container">
-                <h3 class="specs-list__title specs-list__title_size_big">
-                  12 млн <span>м&#178;</span>
-                </h3>
-                <p class="specs-list__subtitle">
-                  Гофрокартона и гофропродукции в месяц
-                </p>
-              </div>
-            </li>
-            <li class="specs-list__item">
-              <img
-                src="<%=require('./img/icons/repeat.svg')%>"
-                alt="Контрукция"
-                class="specs-list__item-icon"
-              />
-              <div class="specs-list__item-text-container">
-                <h3 class="specs-list__title specs-list__title_size_big">
-                  8 млн
-                </h3>
-                <p class="specs-list__subtitle">
-                  Открытых и закрытых бумажных мешков в месяц
-                </p>
-              </div>
-            </li>
-          </ul>
-        </section>
-
-        <!-- секция Продукция -->
-        <section class="products">
-          <!-- Заголовок и описание -->
-          <div class="products__text-container">
-            <h2 class="products__title">Продукция</h2>
-            <p class="products__subtitle">
-              В ассортимент нашей продукции входят разные профили гофрокартона в
-              зависимости от количества слоев
-            </p>
-          </div>
-
-          <!-- Список продуктов -->
-          <ul class="products__list">
-            <li class="products__list-item">
-              <div class="products__list-item-image-wrap">
-                <img
-                  class="products__list-item-image"
-                  src="<%=require('./img/microgofrocard.png')%>"
-                  alt="Микрогофрокартон"
-                />
-              </div>
-              <div class="products__list-text-container">
-                <h3 class="products__list-title">Микрогофрокартон</h3>
-                <p class="products__list-text">
-                  Оптимальный материал для производства коробок, который
-                  отличается экологичностью, небольшим весом и
-                  много-функциональностью.
-                </p>
-                <p class="products__list-text">
-                  Примечательно, что при изготовлении гофрокартона можно
-                  использовать бумагу и картон из макулатуры.
-                </p>
-              </div>
-            </li>
-            <li class="products__list-item">
-              <div class="products__list-item-image-wrap">
-                <img
-                  class="products__list-item-image"
-                  src="<%=require('./img/image-20.png')%>"
-                  alt="Микрогофрокартон"
-                />
-              </div>
-              <div class="products__list-text-container">
-                <h3 class="products__list-title">Микрогофрокартон</h3>
-                <p class="products__list-text">
-                  Микрогофрокартон подходит для изготовления упаковки небольших
-                  размеров под хрупкий или компактный товар. Тем не менее
-                  микрогофрокартон может использоваться и для коробок под более
-                  габаритную продукцию
-                </p>
-              </div>
-            </li>
-            <li class="products__list-item">
-              <div class="products__list-item-image-wrap">
-                <img
-                  class="products__list-item-image"
-                  src="<%=require('./img/image-11.png')%>"
-                  alt="Трехслойный гофрокартон"
-                />
-              </div>
-              <div class="products__list-text-container">
-                <h3 class="products__list-title">Трехслойный гофрокартон</h3>
-                <p class="products__list-text">
-                  Состоит из двух плоских слоев (лайнер) и одного гофрированного
-                  слоя (флютинг)
-                </p>
-              </div>
-            </li>
-            <li class="products__list-item">
-              <div class="products__list-item-image-wrap">
-                <img
-                  class="products__list-item-image"
-                  src="<%=require('./img/image-12.png')%>"
-                  alt="Пятислойный гофрокартон"
-                />
-              </div>
-              <div class="products__list-text-container">
-                <h3 class="products__list-title">Пятислойный гофрокартон</h3>
-                <p class="products__list-text">
-                  Состоит из трех плоских (лайнер) и двух гофрированных
-                  (флютинг) слоев
-                </p>
-              </div>
-            </li>
-            <li class="products__list-item">
-              <div class="products__list-item-image-wrap">
-                <img
-                  class="products__list-item-image"
-                  src="<%=require('./img/image-34.png')%>"
-                  alt="Короб 4-х клапанный"
-                />
-              </div>
-              <div class="products__list-text-container">
-                <h3 class="products__list-title">Короб 4-х клапанный</h3>
-                <p class="products__list-text">
-                  Микрогофрокартон подходит для изготовления упаковки небольших
-                  размеров под хрупкий или компактный товар. Тем не менее
-                  микрогофрокартон может использоваться и для коробок под более
-                  габаритную продукцию
-                </p>
-              </div>
-            </li>
-          </ul>
-        </section>
-
-        <!-- секция Технологии и производство -->
-        <section class="technology">
-          <div class="technology__title-container">
-            <h2 class="technology__title">Технологии и производство</h2>
-            <img
-              class="technology__main-image"
-              src="<%=require('./img/recycle.png')%>"
-              alt="Знак переработка отходов"
-            />
-            <p class="text technology__main-text">
-              Для оперативного выполнения заказов любого масштаба мы располагаем
-              двумя гофроагрегаторами. Производственная линия оснащена новейшим
-              оборудованием Cangzhou Zhenxing Packaging Machinery Co
-            </p>
-          </div>
-
-          <!-- список технологий -->
-          <ul class="technology__tags-list">
-            <li
-              class="technology__tags-list-item technology__tags-list-item_active"
-            >
-              Гофрировальные агрегаты
-            </li>
-            <li class="technology__tags-list-item">Печатные машины</li>
-            <li class="technology__tags-list-item">Плосковысечной пресс</li>
-            <li class="technology__tags-list-item">
-              Линии изготовления многослойных бумажных мешков
-            </li>
-          </ul>
-
-          <!-- карточка технологии -->
-          <div class="technology__card-container">
-            <div class="technology__card-image-container">
-              <img
-                class="technology__card-image"
-                src="<%=require('./img/production-line.png')%>"
-                alt="производственная линия"
-              />
+          </li>
+          <li class="specs-list__item specs-list__item_margin-bottom_small">
+            <img src="<%=require('./img/icons/codepen.svg')%>" alt="Контрукция" class="specs-list__item-icon" />
+            <div class="specs-list__item-text-container">
+              <h3 class="specs-list__title specs-list__title_size_big">
+                12 000 <span>м&#178;</span>
+              </h3>
+              <p class="specs-list__subtitle">
+                Площадь производственно-складского комплекса
+              </p>
             </div>
-            <div class="technology__card-description">
-              <div class="technology__card-description-container">
-                <p class="technology__card-description-subtitle">
-                  Гофрировальный агрегат WJ200-2200
-                </p>
-                <h3 class="technology__card-description-title">
-                  Линия по&nbsp;производству трёх- и&nbsp;пятислойного
-                  гофрокартона:
-                </h3>
-                <ul class="technology__card-description-list">
-                  <li class="technology__card-description-list-item">
-                    3-слойный гофрокартон, профиль&nbsp;В&nbsp;и&nbsp;С
-                  </li>
-                  <li class="technology__card-description-list-item">
-                    5-слойный гофрокартон, профиль&nbsp;ВС
-                  </li>
-                  <li class="technology__card-description-list-item">
-                    Эффективная ширина&nbsp;&mdash; 2200&nbsp;мм
-                  </li>
-                  <li class="technology__card-description-list-item">
-                    Скорость работы&nbsp;&mdash; 200&nbsp;<span
-                      style="white-space: nowrap"
-                      >м/мин</span
-                    >
-                  </li>
-                  <li class="technology__card-description-list-item">
-                    Производительность&nbsp;&mdash; 9&nbsp;<span
-                      style="white-space: nowrap"
-                      >млн&nbsp;м&sup2;/мес</span
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div class="technology__card-description-container">
-                <p class="technology__card-description-subtitle">
-                  Гофрировальный агрегат WJ100-1600
-                </p>
-                <h3 class="technology__card-description-title">
-                  Линия по&nbsp;производству трёхслойного гофрокартона:
-                </h3>
-                <ul class="technology__card-description-list">
-                  <li class="technology__card-description-list-item">
-                    3-слойный микрогофрокартон
-                  </li>
-                  <li class="technology__card-description-list-item">
-                    Эффективная ширина&nbsp;&mdash; 1600&nbsp;мм
-                  </li>
-                  <li class="technology__card-description-list-item">
-                    Скорость работы&nbsp;&mdash; 100&nbsp;<span
-                      style="white-space: nowrap"
-                      >м/мин</span
-                    >
-                  </li>
-                  <li class="technology__card-description-list-item">
-                    Производительность&nbsp;&mdash; 3&nbsp;<span
-                      style="white-space: nowrap"
-                      >млн м&sup2;/мес</span
-                    >
-                  </li>
-                </ul>
-              </div>
+          </li>
+          <li class="specs-list__item">
+            <img src="<%=require('./img/icons/layers.svg')%>" alt="Контрукция" class="specs-list__item-icon" />
+            <div class="specs-list__item-text-container">
+              <h3 class="specs-list__title specs-list__title_size_big">
+                12 млн <span>м&#178;</span>
+              </h3>
+              <p class="specs-list__subtitle">
+                Гофрокартона и гофропродукции в месяц
+              </p>
             </div>
-          </div>
-
-          <!-- список спецификайий технологии -->
-          <ul class="specs-list">
-            <li class="specs-list__item">
-              <img
-                src="<%=require('./img/icons/sliders.svg')%>"
-                alt="Контрукция"
-                class="specs-list__item-icon"
-              />
-              <div class="specs-list__item-text-container">
-                <h3 class="specs-list__title specs-list__title_size_big">
-                  Автоматизация
-                </h3>
-                <p class="specs-list__subtitle">
-                  Минимальные сроки выполнения заказов
-                </p>
-              </div>
-            </li>
-            <li class="specs-list__item">
-              <img
-                src="<%=require('./img/icons/check-circle.svg')%>"
-                alt="Контрукция"
-                class="specs-list__item-icon"
-              />
-              <div class="specs-list__item-text-container">
-                <h3
-                  class="specs-list__title specs-list__title_size_big"
-                  style="margin-left: 2px"
-                >
-                  Производительность
-                </h3>
-                <p class="specs-list__subtitle" style="margin-left: 1px">
-                  Тонкая настройка нужного вам качества
-                </p>
-              </div>
-            </li>
-            <li class="specs-list__item">
-              <img
-                src="<%=require('./img/icons/codesandbox.svg')%>"
-                alt="Контрукция"
-                class="specs-list__item-icon"
-              />
-              <div class="specs-list__item-text-container">
-                <h3
-                  class="specs-list__title specs-list__title_size_big"
-                  style="margin-left: 2px"
-                >
-                  Ассортимент
-                </h3>
-                <p class="specs-list__subtitle" style="margin-left: 1px">
-                  Высокая ценность продукции при оптимальной цене
-                </p>
-              </div>
-            </li>
-          </ul>
-        </section>
-
-        <!-- секция форма обратной связи -->
-        <section class="feedback-form">
-          <div class="feedback-form__text-container">
-            <h2 class="feedback-form__title">Консультация специалиста</h2>
-            <p class="feedback-form__subtitle">
-              Оставьте ваши контактные данные и мы свяжемся с Вами для уточнения
-              Вашего интереса и вместе выберем удобное время для встречи
-            </p>
-          </div>
-          <form class="feedback-form__form" action="">
-            <input
-              class="feedback-form__input"
-              placeholder="Ваше имя"
-              type="text"
-            />
-            <input
-              class="feedback-form__input"
-              placeholder="Телефон"
-              type="text"
-            />
-            <input
-              class="feedback-form__input"
-              placeholder="Эл. почта"
-              type="text"
-            />
-          </form>
-          <button class="feedback-form__button" type="submit">
-            Отправить
-            <img
-              class="feedback-form__button-icon"
-              src="<%=require('./img/icons/arrow.svg')%>"
-              alt="стрелка"
-            />
-          </button>
-        </section>
-      </main>
-
-      <footer class="footer">
-        <img
-          class="footer__logo"
-          src="<%=require('./img/logo/logo-orange.svg')%>"
-          alt="логотип компании Formabox"
-        />
-
-        <ul style="visibility: hidden; display: none">
-          <li>О нас</li>
-          <li>Продукция</li>
-          <li>Услуги</li>
-          <li>Новости</li>
-          <li>Вакансии</li>
-          <li>Контакты</li>
-          <li>Консультация</li>
-          <li>Связаться</li>
-          <li>Оставить заявку</li>
+          </li>
+          <li class="specs-list__item">
+            <img src="<%=require('./img/icons/repeat.svg')%>" alt="Контрукция" class="specs-list__item-icon" />
+            <div class="specs-list__item-text-container">
+              <h3 class="specs-list__title specs-list__title_size_big">
+                8 млн
+              </h3>
+              <p class="specs-list__subtitle">
+                Открытых и закрытых бумажных мешков в месяц
+              </p>
+            </div>
+          </li>
         </ul>
+      </section>
 
-        <p class="footer__contacts-text footer__adress">
-          600016, Владимирская&nbsp;область, г.&nbsp;Владимир,<br />
-          ул.&nbsp;Большая&nbsp;Нижегородская, д.&nbsp;79
-          <br /><br />
-          Время работы:<br />пн–пт с&nbsp;9:00 до&nbsp;18:00
-        </p>
-
-        <div class="footer__contacts-container">
-          <p class="footer__contacts-text">
-            <img
-              src="<%=require('./img/icons/phone.svg')%>"
-              alt="иконка телефона"
-            />+7 (4922) 40-49-37
-          </p>
-          <p class="footer__contacts-text">
-            <img
-              src="<%=require('./img/icons/mail.svg')%>"
-              alt="иконка электронной почты"
-            />sales@forma-box.ru
+      <!-- секция Продукция -->
+      <section class="products">
+        <!-- Заголовок и описание -->
+        <div class="products__text-container">
+          <h2 class="products__title">Продукция</h2>
+          <p class="products__subtitle">
+            В ассортимент нашей продукции входят разные профили гофрокартона в
+            зависимости от количества слоев
           </p>
         </div>
 
-        <p
-          class="footer__border-top-style_dashed footer__text footer__text-color"
-        >
-          Держите ваш бизнес в форме
+        <!-- Список продуктов -->
+        <ul class="products__list">
+          <li class="products__list-item">
+            <div class="products__list-item-image-wrap">
+              <img class="products__list-item-image" src="<%=require('./img/microgofrocard.png')%>"
+                alt="Микрогофрокартон" />
+            </div>
+            <div class="products__list-text-container">
+              <h3 class="products__list-title">Микрогофрокартон</h3>
+              <p class="products__list-text">
+                Оптимальный материал для производства коробок, который
+                отличается экологичностью, небольшим весом и
+                много-функциональностью.
+              </p>
+              <p class="products__list-text">
+                Примечательно, что при изготовлении гофрокартона можно
+                использовать бумагу и картон из макулатуры.
+              </p>
+            </div>
+          </li>
+          <li class="products__list-item">
+            <div class="products__list-item-image-wrap">
+              <img class="products__list-item-image" src="<%=require('./img/image-20.png')%>" alt="Микрогофрокартон" />
+            </div>
+            <div class="products__list-text-container">
+              <h3 class="products__list-title">Микрогофрокартон</h3>
+              <p class="products__list-text">
+                Микрогофрокартон подходит для изготовления упаковки небольших
+                размеров под хрупкий или компактный товар. Тем не менее
+                микрогофрокартон может использоваться и для коробок под более
+                габаритную продукцию
+              </p>
+            </div>
+          </li>
+          <li class="products__list-item">
+            <div class="products__list-item-image-wrap">
+              <img class="products__list-item-image" src="<%=require('./img/image-11.png')%>"
+                alt="Трехслойный гофрокартон" />
+            </div>
+            <div class="products__list-text-container">
+              <h3 class="products__list-title">Трехслойный гофрокартон</h3>
+              <p class="products__list-text">
+                Состоит из двух плоских слоев (лайнер) и одного гофрированного
+                слоя (флютинг)
+              </p>
+            </div>
+          </li>
+          <li class="products__list-item">
+            <div class="products__list-item-image-wrap">
+              <img class="products__list-item-image" src="<%=require('./img/image-12.png')%>"
+                alt="Пятислойный гофрокартон" />
+            </div>
+            <div class="products__list-text-container">
+              <h3 class="products__list-title">Пятислойный гофрокартон</h3>
+              <p class="products__list-text">
+                Состоит из трех плоских (лайнер) и двух гофрированных
+                (флютинг) слоев
+              </p>
+            </div>
+          </li>
+          <li class="products__list-item">
+            <div class="products__list-item-image-wrap">
+              <img class="products__list-item-image" src="<%=require('./img/image-34.png')%>"
+                alt="Короб 4-х клапанный" />
+            </div>
+            <div class="products__list-text-container">
+              <h3 class="products__list-title">Короб 4-х клапанный</h3>
+              <p class="products__list-text">
+                Микрогофрокартон подходит для изготовления упаковки небольших
+                размеров под хрупкий или компактный товар. Тем не менее
+                микрогофрокартон может использоваться и для коробок под более
+                габаритную продукцию
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- секция Технологии и производство -->
+      <section class="technology">
+        <div class="technology__title-container">
+          <h2 class="technology__title">Технологии и производство</h2>
+          <img class="technology__main-image" src="<%=require('./img/recycle.png')%>" alt="Знак переработка отходов" />
+          <p class="text technology__main-text">
+            Для оперативного выполнения заказов любого масштаба мы располагаем
+            двумя гофроагрегаторами. Производственная линия оснащена новейшим
+            оборудованием Cangzhou Zhenxing Packaging Machinery Co
+          </p>
+        </div>
+
+        <!-- список технологий -->
+        <ul class="technology__tags-list">
+          <li class="technology__tags-list-item technology__tags-list-item_active">
+            Гофрировальные агрегаты
+          </li>
+          <li class="technology__tags-list-item">Печатные машины</li>
+          <li class="technology__tags-list-item">Плосковысечной пресс</li>
+          <li class="technology__tags-list-item">
+            Линии изготовления многослойных бумажных мешков
+          </li>
+        </ul>
+
+        <!-- карточка технологии -->
+        <div class="technology__card-container">
+          <div class="technology__card-image-container">
+            <img class="technology__card-image" src="<%=require('./img/production-line.png')%>"
+              alt="производственная линия" />
+          </div>
+          <div class="technology__card-description">
+            <div class="technology__card-description-container">
+              <p class="technology__card-description-subtitle">
+                Гофрировальный агрегат WJ200-2200
+              </p>
+              <h3 class="technology__card-description-title">
+                Линия по&nbsp;производству трёх- и&nbsp;пятислойного
+                гофрокартона:
+              </h3>
+              <ul class="technology__card-description-list">
+                <li class="technology__card-description-list-item">
+                  3-слойный гофрокартон, профиль&nbsp;В&nbsp;и&nbsp;С
+                </li>
+                <li class="technology__card-description-list-item">
+                  5-слойный гофрокартон, профиль&nbsp;ВС
+                </li>
+                <li class="technology__card-description-list-item">
+                  Эффективная ширина&nbsp;&mdash; 2200&nbsp;мм
+                </li>
+                <li class="technology__card-description-list-item">
+                  Скорость работы&nbsp;&mdash; 200&nbsp;<span style="white-space: nowrap">м/мин</span>
+                </li>
+                <li class="technology__card-description-list-item">
+                  Производительность&nbsp;&mdash; 9&nbsp;<span style="white-space: nowrap">млн&nbsp;м&sup2;/мес</span>
+                </li>
+              </ul>
+            </div>
+            <div class="technology__card-description-container">
+              <p class="technology__card-description-subtitle">
+                Гофрировальный агрегат WJ100-1600
+              </p>
+              <h3 class="technology__card-description-title">
+                Линия по&nbsp;производству трёхслойного гофрокартона:
+              </h3>
+              <ul class="technology__card-description-list">
+                <li class="technology__card-description-list-item">
+                  3-слойный микрогофрокартон
+                </li>
+                <li class="technology__card-description-list-item">
+                  Эффективная ширина&nbsp;&mdash; 1600&nbsp;мм
+                </li>
+                <li class="technology__card-description-list-item">
+                  Скорость работы&nbsp;&mdash; 100&nbsp;<span style="white-space: nowrap">м/мин</span>
+                </li>
+                <li class="technology__card-description-list-item">
+                  Производительность&nbsp;&mdash; 3&nbsp;<span style="white-space: nowrap">млн м&sup2;/мес</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- список спецификайий технологии -->
+        <ul class="specs-list">
+          <li class="specs-list__item">
+            <img src="<%=require('./img/icons/sliders.svg')%>" alt="Контрукция" class="specs-list__item-icon" />
+            <div class="specs-list__item-text-container">
+              <h3 class="specs-list__title specs-list__title_size_big">
+                Автоматизация
+              </h3>
+              <p class="specs-list__subtitle">
+                Минимальные сроки выполнения заказов
+              </p>
+            </div>
+          </li>
+          <li class="specs-list__item">
+            <img src="<%=require('./img/icons/check-circle.svg')%>" alt="Контрукция" class="specs-list__item-icon" />
+            <div class="specs-list__item-text-container">
+              <h3 class="specs-list__title specs-list__title_size_big" style="margin-left: 2px">
+                Производительность
+              </h3>
+              <p class="specs-list__subtitle" style="margin-left: 1px">
+                Тонкая настройка нужного вам качества
+              </p>
+            </div>
+          </li>
+          <li class="specs-list__item">
+            <img src="<%=require('./img/icons/codesandbox.svg')%>" alt="Контрукция" class="specs-list__item-icon" />
+            <div class="specs-list__item-text-container">
+              <h3 class="specs-list__title specs-list__title_size_big" style="margin-left: 2px">
+                Ассортимент
+              </h3>
+              <p class="specs-list__subtitle" style="margin-left: 1px">
+                Высокая ценность продукции при оптимальной цене
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- секция форма обратной связи -->
+      <section class="feedback-form">
+        <div class="feedback-form__text-container">
+          <h2 class="feedback-form__title">Консультация специалиста</h2>
+          <p class="feedback-form__subtitle">
+            Оставьте ваши контактные данные и мы свяжемся с Вами для уточнения
+            Вашего интереса и вместе выберем удобное время для встречи
+          </p>
+        </div>
+        <form class="feedback-form__form" action="">
+          <input class="feedback-form__input" placeholder="Ваше имя" type="text" />
+          <input class="feedback-form__input" placeholder="Телефон" type="text" />
+          <input class="feedback-form__input" placeholder="Эл. почта" type="text" />
+        </form>
+        <button class="feedback-form__button" type="submit">
+          Отправить
+          <img class="feedback-form__button-icon" src="<%=require('./img/icons/arrow.svg')%>" alt="стрелка" />
+        </button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <img class="footer__logo" src="<%=require('./img/logo/logo-orange.svg')%>" alt="логотип компании Formabox" />
+
+      <ul style="visibility: hidden; display: none">
+        <li>О нас</li>
+        <li>Продукция</li>
+        <li>Услуги</li>
+        <li>Новости</li>
+        <li>Вакансии</li>
+        <li>Контакты</li>
+        <li>Консультация</li>
+        <li>Связаться</li>
+        <li>Оставить заявку</li>
+      </ul>
+
+      <p class="footer__contacts-text footer__adress">
+        600016, Владимирская&nbsp;область, г.&nbsp;Владимир,<br />
+        ул.&nbsp;Большая&nbsp;Нижегородская, д.&nbsp;79
+        <br /><br />
+        Время работы:<br />пн–пт с&nbsp;9:00 до&nbsp;18:00
+      </p>
+
+      <div class="footer__contacts-container">
+        <p class="footer__contacts-text">
+          <img src="<%=require('./img/icons/phone.svg')%>" alt="иконка телефона" />+7 (4922) 40-49-37
         </p>
-        <p
-          class="footer__border-top-style_dashed footer__text footer__text-color"
-        >
-          Общество с ограниченной ответственностью «Формабокс» Formabox, LLC
+        <p class="footer__contacts-text">
+          <img src="<%=require('./img/icons/mail.svg')%>" alt="иконка электронной почты" />sales@forma-box.ru
         </p>
-        <p
-          class="footer__border-top-style_solid footer__text footer__text-color"
-        >
-          Политика конфиденциальности
-        </p>
-        <p
-          class="footer__border-top-style_solid footer__text footer__text-color"
-        >
-          © «Formabox», 2022
-        </p>
-      </footer>
-    </div>
-  </body>
+      </div>
+
+      <p class="footer__border-top-style_dashed footer__text footer__text-color">
+        Держите ваш бизнес в форме
+      </p>
+      <p class="footer__border-top-style_dashed footer__text footer__text-color">
+        Общество с ограниченной ответственностью «Формабокс» Formabox, LLC
+      </p>
+      <p class="footer__border-top-style_solid footer__text footer__text-color">
+        Политика конфиденциальности
+      </p>
+      <p class="footer__border-top-style_solid footer__text footer__text-color">
+        © «Formabox», 2022
+      </p>
+    </footer>
+  </div>
+</body>
+
 </html>
