@@ -1,5 +1,118 @@
 .slider {
     margin: 0 -16px;
-    background-color: black;
+    height: 595px;
+    position: relative;
+}
+
+.slider::before {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    width: 100%;
+    height: 215px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -25px;
+    right: 0;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.swiper-container {
     height: 560px;
+    width: 100%;
+}
+
+.slider__image-wrap {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+
+.slider__image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.slider__text-container {
+    align-items: flex-start;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 0 16px 32px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.slider__image-wrap::before {
+    width: 1361px;
+    height: 1015px;
+    opacity: .9;
+    top: 333px;
+    left: -776px;
+    mix-blend-mode: Multiply;
+    background: #17212a;
+    filter: blur(200px);
+    pointer-events: none;
+    position: absolute;
+    content: "";
+    transform: translateZ(0);
+}
+
+.slider__image-wrap::after {
+    width: 599px;
+    height: 1100px;
+    opacity: .4;
+    top: 110px;
+    left: -323px;
+    mix-blend-mode: Multiply;
+    background: #17212A;
+    filter: blur(200px);
+    pointer-events: none;
+    position: absolute;
+    content: "";
+    transform: translateZ(0);
+}
+
+.slider__text {
+    font-family: Graphik LCG;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.slider__button {
+    font-family: Graphik LCG;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 16px 40px;
+    border-radius: 100px;
+    background-color: #38AB57;
+    display: flex;
+    gap: 10px;
+    width: 197px;
+    height: 48px;
+    box-sizing: border-box;
+}
+
+
+
+.slider .swiper-pagination {
+    bottom: 0;
+}
+
+.slider .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background-color: #38AB57;
 }
