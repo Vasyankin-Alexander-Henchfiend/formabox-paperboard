@@ -8,9 +8,32 @@
 </head>
 
 <body class="root">
-  <div class="page">
+  <div id="page" class="page">
 
     <header class="header">
+
+      <div id="navigation-menu" class="navigation-menu">
+        <div class="navigation-menu__header">
+          <img class="navigation-menu__logo" src="<%=require('./img/logo/logo-orange.svg')%>" alt="логотип компании Formabox">
+          <button id="navigation-menu-close-button" class="navigation-menu__close-button">
+            <img class="navigation-menu__close-button-icon" src="<%=require('./img/icons/close.svg')%>" alt="иконка закрытия">
+          </button>
+        </div>
+        <input name="search" class="navigation-menu__search" type="text" placeholder="Поиск">
+        <nav class="navigation-menu__links-wrapper">
+          <a href="#" class="navigation-menu__link">О нас</a>
+          <a href="#" class="navigation-menu__link">Продукция</a>
+          <a href="#" class="navigation-menu__link">Услуги</a>
+          <a href="#" class="navigation-menu__link">Новости</a>
+          <a href="#" class="navigation-menu__link">Вакансии</a>
+          <a href="#" class="navigation-menu__link">Контакты</a>
+          <a href="#" class="navigation-menu__link navigation-menu__link_opacity_60">Консультация</a>
+          <a href="#" class="navigation-menu__link navigation-menu__link_opacity_60">Связаться</a>
+          <a href="#" class="navigation-menu__link navigation-menu__link_opacity_60">Оставить заявку</a>
+        </nav>
+        <a href="#" class="navigation-menu__contact">+7 (4922) 40-49-37</a>
+      </div>
+
       <img class="header__logo" src="<%=require('./img/logo/logo-white.svg')%>" alt="логотип компании Formabox" />
       <img id="header-menu-icon" class="header__menu-icon" src="<%=require('./img/icons/menu.svg')%>"
         alt="иконка меню" />
@@ -420,17 +443,17 @@
     <footer class="footer">
       <img class="footer__logo" src="<%=require('./img/logo/logo-orange.svg')%>" alt="логотип компании Formabox" />
 
-      <ul style="visibility: hidden; display: none">
-        <li>О нас</li>
-        <li>Продукция</li>
-        <li>Услуги</li>
-        <li>Новости</li>
-        <li>Вакансии</li>
-        <li>Контакты</li>
-        <li>Консультация</li>
-        <li>Связаться</li>
-        <li>Оставить заявку</li>
-      </ul>
+      <nav style="visibility: hidden; display: none">
+        <a>О нас</a>
+        <a>Продукция</a>
+        <a>Услуги</a>
+        <a>Новости</a>
+        <a>Вакансии</a>
+        <a>Контакты</a>
+        <a>Консультация</a>
+        <a>Связаться</a>
+        <a>Оставить заявку</a>
+      </nav>
 
       <p class="footer__contacts-text footer__adress">
         600016, Владимирская&nbsp;область, г.&nbsp;Владимир,<br />
@@ -462,6 +485,8 @@
       </p>
     </footer>
   </div>
+
+  
 </body>
 
 </html>
