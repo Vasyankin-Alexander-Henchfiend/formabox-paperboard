@@ -35,6 +35,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-top: 27px;
 }
 
@@ -59,7 +60,11 @@
   opacity: 20%;
 }
 
-.feedback-form__input_error {
+.feedback-form__input:focus {
+  outline: none !important;
+}
+
+.feedback-form__input_type_error {
   border: 1px solid red;
 }
 
@@ -74,7 +79,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 24px;
+  margin-top: 8px;
   font-family: Graphik LCG;
   font-weight: 500;
   font-size: 16px;
@@ -85,6 +90,7 @@
 
 .feedback-form__button_inactive {
   opacity: 40%;
+  pointer-events: none;
 }
 
 .feedback-form__button-icon {
@@ -102,10 +108,11 @@
   font-weight: 400;
   justify-content: center;
   left: 0;
-  line-height: 15px;
-  min-height: 30px;
+  line-height: 14px;
+  min-height: 16px;
   opacity: 0;
   transition: .3s;
+  width: 100%;
 }
 
 .feedback-form__input-error_active {

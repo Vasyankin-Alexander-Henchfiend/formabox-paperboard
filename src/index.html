@@ -441,7 +441,7 @@
           required 
           minlength="2"
           maxlength="124" 
-          pattern="^[а-яА-ЯёЁa-zA-Z\s_-]+$"
+          pattern="^[а-яА-ЯёЁa-zA-Z\s_\-]+$"
           data-error-message="Разрешены только латинские буквы, кириллические буквы, знаки дефиса и пробелы." 
           />
           <span id="name-input-error" class="feedback-form__input-error name-input-error feedback-form__input-error_active"></span>
@@ -450,12 +450,12 @@
           name="telephon-input" 
           class="feedback-form__input" 
           placeholder="Телефон" 
-          type="text" 
+          type="tel" 
           required
-          minlength="2" 
-          maxlength="124" 
-          pattern="^[а-яА-ЯёЁa-zA-Z\s_-]+$"
-          data-error-message="Разрешены только латинские буквы, кириллические буквы, знаки дефиса и пробелы." 
+          minlength="6" 
+          maxlength="16" 
+          pattern="^[\+]?[\(]?[0-9]{3}[\)]?[\-\s\.]?[0-9]{3}[\-\s\.]?[0-9]{4,6}$"
+          data-error-message="Введен некорректный номер телефона" 
           />
           <span id="telephon-input-error" class="feedback-form__input-error telephon-input-error feedback-form__input-error_active"></span>
 
@@ -463,12 +463,12 @@
           name="email-input" 
           class="feedback-form__input" 
           placeholder="Эл. почта" 
-          type="text" 
+          type="email" 
           required
-          minlength="2" 
+          minlength="4" 
           maxlength="124" 
-          pattern="^[а-яА-ЯёЁa-zA-Z\s_-]+$"
-          data-error-message="Разрешены только латинские буквы, кириллические буквы, знаки дефиса и пробелы." 
+          pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+          data-error-message="Введен некорректный адрес электронной почты" 
           />
           <span id="email-input-error" class="feedback-form__input-error email-input-error feedback-form__input-error_active"></span>
 

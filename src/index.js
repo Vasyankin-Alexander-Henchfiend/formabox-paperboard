@@ -7,9 +7,9 @@ enableValidation({
   formSelector: ".feedback-form__form",
   inputSelector: ".feedback-form__input",
   submitButtonSelector: ".feedback-form__button",
-  inactiveButtonClass: ".feedback-form__button_inactive",
-  inputErrorClass: ".feedback-form__input-error",
-  errorClass: ".feedback-form__input-error_active",
+  inactiveButtonClass: "feedback-form__button_inactive",
+  inputErrorClass: "feedback-form__input_type_error",
+  errorClass: "feedback-form__input-error_active",
 });
 
 
