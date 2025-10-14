@@ -35,7 +35,6 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 16px;
   margin-top: 27px;
 }
 
@@ -46,6 +45,10 @@
   border-radius: 8px;
   padding: 12px;
   box-sizing: border-box;
+  font-family: Graphik LCG;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
 }
 
 .feedback-form__input::placeholder {
@@ -54,6 +57,10 @@
   font-size: 16px;
   line-height: 100%;
   opacity: 20%;
+}
+
+.feedback-form__input_error {
+  border: 1px solid red;
 }
 
 .feedback-form__button {
@@ -76,7 +83,31 @@
   cursor: pointer;
 }
 
+.feedback-form__button_inactive {
+  opacity: 40%;
+}
+
 .feedback-form__button-icon {
   width: 16px;
   height: 16px;
+}
+
+.feedback-form__input-error {
+  color: red;
+  display: flex;
+  flex-direction: column;
+  font-family: Graphik LCG;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  justify-content: center;
+  left: 0;
+  line-height: 15px;
+  min-height: 30px;
+  opacity: 0;
+  transition: .3s;
+}
+
+.feedback-form__input-error_active {
+  opacity: 1;
 }

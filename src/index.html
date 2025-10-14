@@ -14,9 +14,11 @@
 
       <div id="navigation-menu" class="navigation-menu">
         <div class="navigation-menu__header">
-          <img class="navigation-menu__logo" src="<%=require('./img/logo/logo-orange.svg')%>" alt="логотип компании Formabox">
+          <img class="navigation-menu__logo" src="<%=require('./img/logo/logo-orange.svg')%>"
+            alt="логотип компании Formabox">
           <button id="navigation-menu-close-button" class="navigation-menu__close-button" type="button">
-            <img class="navigation-menu__close-button-icon" src="<%=require('./img/icons/close.svg')%>" alt="иконка закрытия">
+            <img class="navigation-menu__close-button-icon" src="<%=require('./img/icons/close.svg')%>"
+              alt="иконка закрытия">
           </button>
         </div>
         <input name="search" class="navigation-menu__search" type="text" placeholder="Поиск">
@@ -430,15 +432,51 @@
             Вашего интереса и вместе выберем удобное время для встречи
           </p>
         </div>
-        <form class="feedback-form__form" action="">
-          <input class="feedback-form__input" placeholder="Ваше имя" type="text" />
-          <input class="feedback-form__input" placeholder="Телефон" type="text" />
-          <input class="feedback-form__input" placeholder="Эл. почта" type="text" />
+        <form id="submit-form" class="feedback-form__form" name="submit-form" novalidate>
+          <input id="name-input"
+          name="name-input"
+          class="feedback-form__input" 
+          placeholder="Ваше имя" 
+          type="text" 
+          required 
+          minlength="2"
+          maxlength="124" 
+          pattern="^[а-яА-ЯёЁa-zA-Z\s_-]+$"
+          data-error-message="Разрешены только латинские буквы, кириллические буквы, знаки дефиса и пробелы." 
+          />
+          <span id="name-input-error" class="feedback-form__input-error name-input-error feedback-form__input-error_active"></span>
+
+          <input id="telephon-input" 
+          name="telephon-input" 
+          class="feedback-form__input" 
+          placeholder="Телефон" 
+          type="text" 
+          required
+          minlength="2" 
+          maxlength="124" 
+          pattern="^[а-яА-ЯёЁa-zA-Z\s_-]+$"
+          data-error-message="Разрешены только латинские буквы, кириллические буквы, знаки дефиса и пробелы." 
+          />
+          <span id="telephon-input-error" class="feedback-form__input-error telephon-input-error feedback-form__input-error_active"></span>
+
+          <input id="email-input" 
+          name="email-input" 
+          class="feedback-form__input" 
+          placeholder="Эл. почта" 
+          type="text" 
+          required
+          minlength="2" 
+          maxlength="124" 
+          pattern="^[а-яА-ЯёЁa-zA-Z\s_-]+$"
+          data-error-message="Разрешены только латинские буквы, кириллические буквы, знаки дефиса и пробелы." 
+          />
+          <span id="email-input-error" class="feedback-form__input-error email-input-error feedback-form__input-error_active"></span>
+
+          <button class="feedback-form__button feedback-form__button_inactive" type="submit">
+            Отправить
+            <img class="feedback-form__button-icon" src="<%=require('./img/icons/arrow.svg')%>" alt="стрелка" />
+          </button>
         </form>
-        <button class="feedback-form__button" type="submit">
-          Отправить
-          <img class="feedback-form__button-icon" src="<%=require('./img/icons/arrow.svg')%>" alt="стрелка" />
-        </button>
       </section>
     </main>
 
@@ -488,7 +526,7 @@
     </footer>
   </div>
 
-  
+
 </body>
 
 </html>
