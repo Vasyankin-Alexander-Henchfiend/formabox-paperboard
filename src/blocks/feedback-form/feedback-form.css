@@ -14,6 +14,8 @@
   flex-direction: column;
   align-items: center;
   gap: 8px;
+  width: 100%;
+  max-width: 560px;
 }
 
 .feedback-form__title {
@@ -33,6 +35,7 @@
 
 .feedback-form__form {
   width: 100%;
+  max-width: 560px;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -13,6 +13,13 @@
   z-index: 20;
 }
 
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 20px 32px;
+    height: 80px;
+  }
+}
+
 .header__logo {
   width: 68.84616088867188px;
   height: 40px;

@@ -7,11 +7,24 @@
   align-items: flex-start;
 }
 
+@media screen and (min-width: 768px) {
+  .specs-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
 .specs-list__item {
   display: flex;
   flex-direction: row;
   gap: 16px;
   margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .specs-list__item {
+    width: 50%;
+  }
 }
 
 .specs-list__item_gap_big {

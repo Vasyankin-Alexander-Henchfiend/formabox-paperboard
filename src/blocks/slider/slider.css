@@ -4,6 +4,12 @@
     position: relative;
 }
 
+@media screen and (min-width: 768px) {
+    .slider {
+        margin: 0 -32px;
+    }
+}
+
 .slider::before {
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
     width: 100%;
@@ -31,11 +37,19 @@
 }
 
 .slider__image {
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: contain;
-    margin-left: -380px;
-    margin-top: -2px;
+    height: 101%;
+    margin-left: -387px;
+    margin-top: -4px;
+}
+
+@media  screen and (min-width: 425px) {
+    .slider__image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        margin: 0;
+    }
+    
 }
 
 .slider__text-container {
