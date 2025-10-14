@@ -17,6 +17,12 @@
   height: 40px;
 }
 
+.header-menu-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 .header__menu-icon {
   width: 24px;
   aspect-ratio: 1/1;

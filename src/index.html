@@ -15,7 +15,7 @@
       <div id="navigation-menu" class="navigation-menu">
         <div class="navigation-menu__header">
           <img class="navigation-menu__logo" src="<%=require('./img/logo/logo-orange.svg')%>" alt="логотип компании Formabox">
-          <button id="navigation-menu-close-button" class="navigation-menu__close-button">
+          <button id="navigation-menu-close-button" class="navigation-menu__close-button" type="button">
             <img class="navigation-menu__close-button-icon" src="<%=require('./img/icons/close.svg')%>" alt="иконка закрытия">
           </button>
         </div>
@@ -35,8 +35,10 @@
       </div>
 
       <img class="header__logo" src="<%=require('./img/logo/logo-white.svg')%>" alt="логотип компании Formabox" />
-      <img id="header-menu-icon" class="header__menu-icon" src="<%=require('./img/icons/menu.svg')%>"
-        alt="иконка меню" />
+      <button id="header-menu-button" class="header-menu-button" type="button">
+        <img id="header-menu-icon" class="header__menu-icon" src="<%=require('./img/icons/menu.svg')%>"
+          alt="иконка меню" />
+      </button>
     </header>
 
     <main class="content">

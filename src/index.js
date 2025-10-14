@@ -8,7 +8,7 @@ const videoPreviewContainer = document.getElementById(
 );
 const videoWrap = document.getElementById("about-video-wrap");
 
-const headerMenuButton = document.getElementById("header-menu-icon");
+const headerMenuButton = document.getElementById("header-menu-button");
 const headerNavigationMenu = document.getElementById("navigation-menu");
 const headerNavigationMenuCloseButton = document.getElementById(
   "navigation-menu-close-button"

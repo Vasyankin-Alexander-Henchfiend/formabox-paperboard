@@ -3,4 +3,5 @@
   margin-bottom: 26px;
   padding: 0 16px;
   box-sizing: border-box;
+  overflow: hidden;
 }

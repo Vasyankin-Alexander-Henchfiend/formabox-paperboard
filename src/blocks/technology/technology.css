@@ -13,10 +13,8 @@
 .technology__title {
   font-family: Graphik LCG;
   font-weight: 500;
-  font-style: Medium;
   font-size: 24px;
   line-height: 32px;
-  letter-spacing: 0%;
 }
 
 .technology__main-image {
@@ -29,32 +27,29 @@
   grid-column: span 2;
   font-family: Graphik LCG;
   font-weight: 400;
-  font-style: Regular;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0%;
 }
 
 .technology__tags-list {
   margin: 24px 0;
+  width: 100%;
   padding: 0;
   list-style: none;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 16px;
-  overflow: hidden;
 }
 
 .technology__tags-list-item {
   font-family: Graphik LCG;
   font-weight: 400;
-  font-style: Regular;
   font-size: 14px;
   line-height: 100%;
-  letter-spacing: 0%;
   border-radius: 40px;
   white-space: nowrap;
+  cursor: pointer;
 }
 
 .technology__tags-list-item_active {
@@ -99,20 +94,16 @@
 .technology__card-description-subtitle {
   font-family: Graphik LCG;
   font-weight: 400;
-  font-style: Regular;
   font-size: 12px;
   line-height: 24px;
-  letter-spacing: 0%;
   color: #666666;
 }
 
 .technology__card-description-title {
   font-family: Graphik LCG;
   font-weight: 500;
-  font-style: Medium;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0%;
 }
 
 .technology__card-description-list {
@@ -127,9 +118,7 @@
 .technology__card-description-list-item {
   font-family: Graphik LCG;
   font-weight: 400;
-  font-style: Regular;
   font-size: 14px;
   line-height: 18px;
-  letter-spacing: 0%;
   color: black;
 }

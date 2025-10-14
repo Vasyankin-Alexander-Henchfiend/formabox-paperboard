@@ -77,8 +77,12 @@
     border-bottom: 1px solid #F8F3F3;
 }
 
+.navigation-menu__link:hover {
+    background-color: #F8F3F3;
+}
+
 .navigation-menu__link_opacity_60 {
-    opacity: 60%;
+    color: rgba(0, 0, 0, 0.6)
 }
 
 .navigation-menu__contact {

@@ -19,19 +19,15 @@
 .feedback-form__title {
   font-family: Graphik LCG;
   font-weight: 500;
-  font-style: Medium;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0%;
 }
 
 .feedback-form__subtitle {
   font-family: Graphik LCG;
   font-weight: 400;
-  font-style: Regular;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0%;
   text-align: center;
 }
 
@@ -55,10 +51,8 @@
 .feedback-form__input::placeholder {
   font-family: Graphik LCG;
   font-weight: 400;
-  font-style: Regular;
   font-size: 16px;
   line-height: 100%;
-  letter-spacing: 0%;
   opacity: 20%;
 }
 
@@ -79,6 +73,7 @@
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 1%;
+  cursor: pointer;
 }
 
 .feedback-form__button-icon {
