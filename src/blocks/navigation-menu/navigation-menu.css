@@ -15,6 +15,12 @@
     overflow: auto;
 }
 
+@media screen and (min-width: 768px) {
+    .navigation-menu {
+        padding: 20px 32px 34px;
+    }
+}
+
 .navigation-menu_visible {
     visibility: visible;
     z-index: 100;
@@ -28,17 +34,24 @@
     align-items: center;
 }
 
-.navigation-menu__logo {
-    width: 68.84616088867188px;
-    height: 40px;
-}
-
 .navigation-menu__close-button {
     border: none;
     background: none;
     width: 24px;
     height: 24px;
     cursor: pointer;
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .navigation-menu__close-button {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+.navigation-menu__close-button-icon {
+    width: 100%;
 }
 
 .navigation-menu__search {
