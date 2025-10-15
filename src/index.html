@@ -33,7 +33,7 @@
           <a href="#" class="navigation-menu__link navigation-menu__link_opacity_60">Связаться</a>
           <a href="#" class="navigation-menu__link navigation-menu__link_opacity_60">Оставить заявку</a>
         </nav>
-        <a href="#" class="navigation-menu__contact">+7 (4922) 40-49-37</a>
+        <a href="callto:+74922404937" class="navigation-menu__contact">+7 (4922) 40-49-37</a>
       </div>
 
       <img class="header__logo" src="<%=require('./img/logo/logo-white.svg')%>" alt="логотип компании Formabox" />
@@ -108,8 +108,12 @@
             </div>
 
           </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          <div class="slider__buttons-container">
+            <div class="slider__buttons-wrap">
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
         </div>
         <div class="swiper-pagination"></div>
       </section>
@@ -489,25 +493,25 @@
         <div class="footer__links-contacts-wrap">
           <nav class="footer__navigation-links">
             <a class="footer__navigation-link" href="#">О нас</a>
-            <a class="footer__navigation-link" href="#">Продукция</a>
-            <a class="footer__navigation-link" href="#">Услуги</a>
             <a class="footer__navigation-link" href="#">Новости</a>
+            <a class="footer__navigation-link footer__navigation-link_opacity_60" href="#">Консультация</a>
+            <a class="footer__navigation-link" href="#">Продукция</a>
             <a class="footer__navigation-link" href="#">Вакансии</a>
+            <a class="footer__navigation-link footer__navigation-link_opacity_60" href="#">Связаться</a>
+            <a class="footer__navigation-link" href="#">Услуги</a>
             <a class="footer__navigation-link" href="#">Контакты</a>
-            <a class="footer__navigation-link" href="#">Консультация</a>
-            <a class="footer__navigation-link" href="#">Связаться</a>
-            <a class="footer__navigation-link" href="#">Оставить заявку</a>
+            <a class="footer__navigation-link footer__navigation-link_opacity_60" href="#">Оставить заявку</a>
           </nav>
     
           <div class="footer__contacts-container">
-            <div class="footer__contact">
+            <a href="callto:+74922404937" class="footer__contact footer__contact-text">
               <img src="<%=require('./img/icons/phone.svg')%>" alt="иконка телефона" />
-              <p class="footer__contact-text">+7 (4922) 40-49-37</p>
-            </div>
-            <div class="footer__contact">
+              +7 (4922) 40-49-37
+            </a>
+            <a href="mailto:sales@forma-box.ru" class="footer__contact footer__contact-text">
               <img src="<%=require('./img/icons/mail.svg')%>" alt="иконка электронной почты" />
-              <p class="footer__contact-text">sales@forma-box.ru</p>
-            </div>
+              sales@forma-box.ru
+            </a>
           </div>
         </div>
       </div>
@@ -520,15 +524,17 @@
       <div class="footer__disclaimer-container">
         <div class="footer__conf-policy-wrap">
           <p class="footer__text footer__text-color">
-            Общество с ограниченной ответственностью «Формабокс» Formabox, LLC
+            Общество с&nbsp;ограниченной ответственностью &laquo;Формабокс&raquo; Formabox, LLC
           </p>
           <a href="#" class="footer__text footer__text-color footer__text_type_link">
             Политика конфиденциальности
           </a>
         </div>
-        <p class="footer__text footer__text-color">
-          © «Formabox», 2022
-        </p>
+        <div class="footer__copy-right-wrap">
+          <p class="footer__text footer__text-color">
+            &copy;&nbsp;&laquo;Formabox&raquo;, 2022
+          </p>
+        </div>
       </div>
     </footer>
   </div>

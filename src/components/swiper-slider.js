@@ -1,30 +1,26 @@
 import Swiper from "swiper";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 import "swiper/css/bundle";
 
-// init Swiper:
 const swiper = new Swiper(".swiper-container", {
-  modules: [Navigation, Pagination],
-  // Optional parameters
+  modules: [Navigation, Pagination, Autoplay],
   direction: "horizontal",
   slidesPerView: 1,
+  loop: true,
+  // autoplay: {
+  //   delay: 3000,
+  // },
 
-  // If we need pagination
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
 
-  // Navigation arrows
   navigation: {
+    addIcons: false,
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
   },
 });
 
