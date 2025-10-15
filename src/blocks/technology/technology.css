@@ -1,5 +1,13 @@
 .technology {
-  margin: 84px 0 0;
+  margin: 84px auto 0;
+  width: calc(100% - 32px);
+  max-width: 1440px;
+}
+
+@media screen and (min-width: 768px) {
+  .technology {
+    width: calc(100% - 64px);
+  }
 }
 
 .technology__title-container {

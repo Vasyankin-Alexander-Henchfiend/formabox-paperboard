@@ -1,14 +1,6 @@
 .content {
   width: 100%;
   margin-bottom: 26px;
-  padding: 0 16px;
   box-sizing: border-box;
   overflow: hidden;
-}
-
-
-@media screen and (min-width: 768px) {
-  .content {
-    padding: 0 32px;
-  }
 }
