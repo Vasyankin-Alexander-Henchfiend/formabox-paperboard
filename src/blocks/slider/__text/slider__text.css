@@ -1,0 +1,21 @@
+.slider__text {
+    font-family: Graphik LCG;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 518px;
+}
+
+@media screen and (min-width: 1024px) {
+    .slider__text {
+        font-size: 26px;
+        line-height: 34px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .slider__text {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}

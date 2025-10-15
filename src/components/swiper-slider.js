@@ -7,10 +7,9 @@ const swiper = new Swiper(".swiper-container", {
   modules: [Navigation, Pagination, Autoplay],
   direction: "horizontal",
   slidesPerView: 1,
-  loop: true,
-  // autoplay: {
-  //   delay: 3000,
-  // },
+  autoplay: {
+    delay: 3000,
+  },
 
   pagination: {
     el: ".swiper-pagination",

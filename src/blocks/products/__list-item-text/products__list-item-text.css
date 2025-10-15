@@ -1,0 +1,15 @@
+.products__list-item-text {
+    font-family: Graphik LCG;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 4px;
+    color: #8C7D76;
+}
+
+@media screen and (min-width: 1024px) {
+    .products__list-item-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

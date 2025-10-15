@@ -1,0 +1,28 @@
+.technology__main-text {
+    width: 100%;
+    grid-column: span 2;
+    font-family: Graphik LCG;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .technology__main-text {
+        grid-column: span 1;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .technology__main-text {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .technology__main-text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}

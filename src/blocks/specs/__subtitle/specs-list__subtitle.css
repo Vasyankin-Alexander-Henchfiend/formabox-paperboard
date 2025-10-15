@@ -1,0 +1,20 @@
+.specs-list__subtitle {
+    font-family: Graphik LCG;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .specs-list__subtitle {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .specs-list__subtitle {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

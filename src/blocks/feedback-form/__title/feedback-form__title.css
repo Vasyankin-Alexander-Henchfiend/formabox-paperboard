@@ -1,0 +1,20 @@
+.feedback-form__title {
+    font-family: Graphik LCG;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+    .feedback-form__title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .feedback-form__title {
+        font-size: 32px;
+        line-height: 100%;
+    }
+}

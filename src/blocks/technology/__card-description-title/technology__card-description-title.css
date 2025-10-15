@@ -1,0 +1,12 @@
+.technology__card-description-title {
+    font-family: Graphik LCG;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+    .technology__card-description-title {
+        font-size: 20px;
+    }
+}

@@ -11,16 +11,36 @@
 @import url("../blocks/content/content.css");
 
 @import url("../blocks/slider/slider.css");
+@import url("../blocks/slider/__text/slider__text.css");
 
 @import url("../blocks/about/about.css");
+@import url("../blocks/about/__title/about__title.css");
+@import url("../blocks/about/__subtitle/about__subtitle.css");
+@import url("../blocks/about/__text/about__text.css");
 
 @import url("../blocks/products/products.css");
+@import url("../blocks/products/__title/products__title.css");
+@import url("../blocks/products/__subtitle/products__subtitle.css");
+@import url("../blocks/products/__list-item-title/products__list-item-title.css");
+@import url("../blocks/products/__list-item-text/products__list-item-text.css");
 
 @import url("../blocks//technology/technology.css");
+@import url("../blocks//technology/__title/technology__title.css");
+@import url("../blocks//technology/__main-text/technology__main-text.css");
+@import url("../blocks//technology/__card-description-title/technology__card-description-title.css");
+@import url("../blocks//technology/__card-description-subtitle/technology__card-description-subtitle.css");
+@import url("../blocks//technology/__card-description-list-item/technology__card-description-list-item.css");
 
 @import url("../blocks/specs/specs.css");
+@import url("../blocks/specs/__title/specs-list__title.css");
+@import url("../blocks/specs/__title/_size/specs-list__title_size_big.css");
+@import url("../blocks/specs/__title/_size/specs-list__title_size_small.css");
+@import url("../blocks/specs/__subtitle/specs-list__subtitle.css");
+
 
 @import url("../blocks/feedback-form/feedback-form.css");
+@import url("../blocks/feedback-form/__title/feedback-form__title.css");
+@import url("../blocks/feedback-form/__subtitle/feedback-form__subtitle.css");
 
 @import url("../blocks/footer/footer.css");
 

@@ -242,31 +242,37 @@
                 alt="Микрогофрокартон" />
             </div>
             <div class="products__list-text-container">
-              <h3 class="products__list-title">Микрогофрокартон</h3>
-              <p class="products__list-text">
+              <h3 class="products__list-item-title">Микрогофрокартон</h3>
+              <p class="products__list-item-text">
                 Оптимальный материал для производства коробок, который
                 отличается экологичностью, небольшим весом и
                 много-функциональностью.
               </p>
-              <p class="products__list-text">
+              <p class="products__list-item-text">
                 Примечательно, что при изготовлении гофрокартона можно
                 использовать бумагу и картон из макулатуры.
               </p>
             </div>
+            <button class="products__list-button">
+              <img class="products__list-button-icon" src="<%=require('./img/icons/arrow.svg')%>" alt="">
+            </button>
           </li>
           <li class="products__list-item">
             <div class="products__list-item-image-wrap">
               <img class="products__list-item-image" src="<%=require('./img/image-20.png')%>" alt="Микрогофрокартон" />
             </div>
             <div class="products__list-text-container">
-              <h3 class="products__list-title">Микрогофрокартон</h3>
-              <p class="products__list-text">
+              <h3 class="products__list-item-title">Микрогофрокартон</h3>
+              <p class="products__list-item-text">
                 Микрогофрокартон подходит для изготовления упаковки небольших
                 размеров под хрупкий или компактный товар. Тем не менее
                 микрогофрокартон может использоваться и для коробок под более
                 габаритную продукцию
               </p>
             </div>
+            <button class="products__list-button">
+              <img class="products__list-button-icon" src="<%=require('./img/icons/arrow.svg')%>" alt="">
+            </button>
           </li>
           <li class="products__list-item">
             <div class="products__list-item-image-wrap">
@@ -274,12 +280,15 @@
                 alt="Трехслойный гофрокартон" />
             </div>
             <div class="products__list-text-container">
-              <h3 class="products__list-title">Трехслойный гофрокартон</h3>
-              <p class="products__list-text">
+              <h3 class="products__list-item-title">Трехслойный гофрокартон</h3>
+              <p class="products__list-item-text">
                 Состоит из двух плоских слоев (лайнер) и одного гофрированного
                 слоя (флютинг)
               </p>
             </div>
+            <button class="products__list-button">
+              <img class="products__list-button-icon" src="<%=require('./img/icons/arrow.svg')%>" alt="">
+            </button>
           </li>
           <li class="products__list-item">
             <div class="products__list-item-image-wrap">
@@ -287,12 +296,15 @@
                 alt="Пятислойный гофрокартон" />
             </div>
             <div class="products__list-text-container">
-              <h3 class="products__list-title">Пятислойный гофрокартон</h3>
-              <p class="products__list-text">
+              <h3 class="products__list-item-title">Пятислойный гофрокартон</h3>
+              <p class="products__list-item-text">
                 Состоит из трех плоских (лайнер) и двух гофрированных
                 (флютинг) слоев
               </p>
             </div>
+            <button class="products__list-button">
+              <img class="products__list-button-icon" src="<%=require('./img/icons/arrow.svg')%>" alt="">
+            </button>
           </li>
           <li class="products__list-item">
             <div class="products__list-item-image-wrap">
@@ -300,14 +312,17 @@
                 alt="Короб 4-х клапанный" />
             </div>
             <div class="products__list-text-container">
-              <h3 class="products__list-title">Короб 4-х клапанный</h3>
-              <p class="products__list-text">
+              <h3 class="products__list-item-title">Короб 4-х клапанный</h3>
+              <p class="products__list-item-text">
                 Микрогофрокартон подходит для изготовления упаковки небольших
                 размеров под хрупкий или компактный товар. Тем не менее
                 микрогофрокартон может использоваться и для коробок под более
                 габаритную продукцию
               </p>
             </div>
+            <button class="products__list-button">
+              <img class="products__list-button-icon" src="<%=require('./img/icons/arrow.svg')%>" alt="">
+            </button>
           </li>
         </ul>
       </section>
@@ -406,7 +421,7 @@
                 Автоматизация
               </h3>
               <p class="specs-list__subtitle">
-                Минимальные сроки выполнения заказов
+                Преимущество компании в&nbsp;том, что линия производства полностью автоматическая
               </p>
             </div>
           </li>
@@ -417,7 +432,7 @@
                 Производительность
               </h3>
               <p class="specs-list__subtitle" style="margin-left: 1px">
-                Тонкая настройка нужного вам качества
+                Наличие двух гофроагрегатов позволяет производить одновременно различные типы профилей
               </p>
             </div>
           </li>
@@ -428,7 +443,7 @@
                 Ассортимент
               </h3>
               <p class="specs-list__subtitle" style="margin-left: 1px">
-                Высокая ценность продукции при оптимальной цене
+                Наличие автоматического плосковысечного пресса позволяет расширить ассортимент выпускаемой продукции
               </p>
             </div>
           </li>
@@ -445,26 +460,26 @@
           </p>
         </div>
         <form id="submit-form" class="feedback-form__form" name="submit-form" novalidate>
-          <input id="name-input" name="name-input" class="feedback-form__input" placeholder="Ваше имя" type="text"
+          <input id="name-input" name="name-input" class="feedback-form__input feedback-form__input_text" placeholder="Ваше имя" type="text"
             required minlength="2" maxlength="124" pattern="^[а-яА-ЯёЁa-zA-Z\s_\-]+$"
             data-error-message="Разрешены только латинские буквы, кириллические буквы, знаки дефиса и пробелы." />
           <span id="name-input-error"
             class="feedback-form__input-error name-input-error feedback-form__input-error_active"></span>
 
-          <input id="telephon-input" name="telephon-input" class="feedback-form__input" placeholder="Телефон" type="tel"
+          <input id="telephon-input" name="telephon-input" class="feedback-form__input feedback-form__input_text" placeholder="Телефон" type="tel"
             required minlength="6" maxlength="16"
             pattern="^[\+]?[\(]?[0-9]{3}[\)]?[\-\s\.]?[0-9]{3}[\-\s\.]?[0-9]{4,6}$"
             data-error-message="Введен некорректный номер телефона" />
           <span id="telephon-input-error"
             class="feedback-form__input-error telephon-input-error feedback-form__input-error_active"></span>
 
-          <input id="email-input" name="email-input" class="feedback-form__input" placeholder="Эл. почта" type="email"
+          <input id="email-input" name="email-input" class="feedback-form__input feedback-form__input_text" placeholder="Эл. почта" type="email"
             required minlength="4" maxlength="124" pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
             data-error-message="Введен некорректный адрес электронной почты" />
           <span id="email-input-error"
             class="feedback-form__input-error email-input-error feedback-form__input-error_active"></span>
 
-          <button class="feedback-form__button feedback-form__button_inactive" type="submit">
+          <button class="feedback-form__button feedback-form__button_text feedback-form__button_inactive" type="submit">
             Отправить
             <img class="feedback-form__button-icon" src="<%=require('./img/icons/arrow.svg')%>" alt="стрелка" />
           </button>

@@ -24,13 +24,6 @@
   }
 }
 
-.technology__title {
-  font-family: Graphik LCG;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 32px;
-}
-
 .technology__main-image-wrap {
   width: 100%;
   display: flex;
@@ -56,21 +49,6 @@
   }
 }
 
-.technology__main-text {
-  width: 100%;
-  grid-column: span 2;
-  font-family: Graphik LCG;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-@media screen and (min-width: 768px) {
-  .technology__main-text {
-    grid-column: span 1;
-  }
-}
-
 .technology__tags-list {
   margin: 24px 0;
   width: 100%;
@@ -90,6 +68,12 @@
   border-radius: 40px;
   white-space: nowrap;
   cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .technology__tags-list-item {
+    font-size: 18px;
+  }
 }
 
 .technology__tags-list-item_active {
@@ -149,21 +133,6 @@
   gap: 18px;
 }
 
-.technology__card-description-subtitle {
-  font-family: Graphik LCG;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 24px;
-  color: #666666;
-}
-
-.technology__card-description-title {
-  font-family: Graphik LCG;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-}
-
 .technology__card-description-list {
   color: #8c7d76;
   margin: 8px 0 0 13px;
@@ -171,12 +140,4 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
-}
-
-.technology__card-description-list-item {
-  font-family: Graphik LCG;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  color: black;
 }

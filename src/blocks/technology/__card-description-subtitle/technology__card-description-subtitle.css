@@ -1,0 +1,13 @@
+.technology__card-description-subtitle {
+    font-family: Graphik LCG;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #666666;
+}
+
+@media screen and (min-width: 1024px) {
+    .technology__card-description-subtitle {
+        font-size: 14px;
+    }
+}

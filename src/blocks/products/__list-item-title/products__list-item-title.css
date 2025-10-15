@@ -1,0 +1,21 @@
+.products__list-item-title {
+    font-family: Graphik LCG;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+@media screen and (min-width: 1024px) {
+    .products__list-item-title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .products__list-item-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
