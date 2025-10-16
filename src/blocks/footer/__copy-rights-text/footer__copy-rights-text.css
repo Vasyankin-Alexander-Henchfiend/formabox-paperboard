@@ -3,4 +3,11 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
+    padding: 16px 0;
+}
+
+@media screen and (min-width: 1292px) {
+    .footer__copy-rights-text {
+        padding: 0;
+    }
 }

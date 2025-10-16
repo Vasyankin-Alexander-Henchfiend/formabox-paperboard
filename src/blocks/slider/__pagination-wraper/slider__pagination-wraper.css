@@ -1,0 +1,8 @@
+.slider__pagination-wraper {
+    width: calc(100% - 32px);
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 1440px;
+}

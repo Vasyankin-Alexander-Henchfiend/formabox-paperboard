@@ -1,0 +1,13 @@
+.specs-list__item-text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+@media screen and (min-width: 1024px) {
+    .specs-list__item-text-container {
+        gap: 12px;
+    }
+}

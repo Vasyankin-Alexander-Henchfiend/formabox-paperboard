@@ -3,52 +3,5 @@
   top: 0;
   left: 0;
   width: 100%;
-  max-width: 1440px;
-  height: 60px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 16px;
-  box-sizing: border-box;
   z-index: 20;
-}
-
-@media screen and (min-width: 768px) {
-  .header {
-    padding: 20px 32px;
-    height: 100px;
-  }
-}
-
-.header__logo {
-  width: 68.84616088867188px;
-  height: 40px;
-}
-
-@media screen and (min-width: 768px) {
-  .header__logo {
-    width: 103px;
-    height: 60px;
-  }
-}
-
-.header-menu-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  height: 24px;
-  width: 24px;
-}
-
-@media screen and (min-width: 768px) {
-  .header-menu-button {
-    width: 36px;
-    height: 36px;
-  }
-}
-
-.header__menu-icon {
-  width: 100%;
 }

@@ -35,11 +35,41 @@
         <a href="callto:+74922404937" class="navigation-menu__contact">+7 (4922) 40-49-37</a>
       </div>
 
-      <img class="header__logo" src="<%=require('./img/logo/logo-white.svg')%>" alt="логотип компании Formabox" />
-      <button id="header-menu-button" class="header-menu-button" type="button">
-        <img id="header-menu-icon" class="header__menu-icon" src="<%=require('./img/icons/menu.svg')%>"
-          alt="иконка меню" />
-      </button>
+      <div class="header__wrap">
+        <img class="header__logo" src="<%=require('./img/logo/logo-white.svg')%>" alt="логотип компании Formabox" />
+        <button id="header-menu-button" class="header__menu-button" type="button">
+          <img id="header-menu-icon" class="header__menu-icon" src="<%=require('./img/icons/menu.svg')%>"
+            alt="иконка меню" />
+        </button>
+        <div class="header__menu">
+          <div class="header__menu-wrap">
+            <div class="header__contact-wrap">
+              <a class="header__menu-link header__contact" href="callto:+74922404937">
+                +7 (4922) 40-49-37</a>
+            </div>
+            <div class="header__menu-wrap header__menu-wrap_opacity_60">
+              <nav class="header__links-wraper header__links-wraper_gap_48">
+                <a href="#" class="header__menu-link header__menu-text_size_sml">Консультация</a>
+                <a href="#" class="header__menu-link header__menu-text_size_sml">Связаться</a>
+                <a href="#" class="header__menu-link header__menu-text_size_sml">Оставить заявку</a>
+              </nav>
+              <button class="header__search-button">
+                <img class="header__search-icon" src="<%=require('./img/icons/search.svg')%>" alt="иконка поиска">
+              </button>
+            </div>
+          </div>
+          <div class="header__menu-wrap header__menu-border">
+            <nav class="header__links-wraper header__links-wraper_gap_56">
+              <a href="#" class="header__menu-link header__menu-text">О нас</a>
+              <a href="#" class="header__menu-link header__menu-text">Продукция</a>
+              <a href="#" class="header__menu-link header__menu-text">Услуги</a>
+              <a href="#" class="header__menu-link header__menu-text">Новости</a>
+              <a href="#" class="header__menu-link header__menu-text">Вакансии</a>
+              <a href="#" class="header__menu-link header__menu-text">Контакты</a>
+            </nav>
+          </div>
+        </div>
+      </div>
     </header>
 
     <main class="content">
@@ -48,6 +78,16 @@
       <section class="slider">
 
         <div class="swiper swiper-container">
+          <div class="slider__pagination-container">
+            <div class="slider__pagination-wraper">
+              <div class="slider__buttons-container">
+                <div class="slider__buttons-wrap">
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="swiper-wrapper">
             <!-- Slides -->
             <div class="swiper-slide">
@@ -107,12 +147,7 @@
             </div>
 
           </div>
-          <div class="slider__buttons-container">
-            <div class="slider__buttons-wrap">
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
-            </div>
-          </div>
+          
         </div>
         <div class="swiper-pagination"></div>
       </section>
@@ -143,11 +178,12 @@
                   alt="иконка плей" />
               </button>
             </div>
-            <!-- <div>
-              <video crossorigin="anonymous" controls>
-                <source src="" type="video/mp4">
-              </video>
-            </div> -->
+
+            <iframe src=''
+              id="video-iframe"
+              allow='autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;' frameborder='0' allowfullscreen
+              class='about__video'>
+            </iframe>
           </div>
         </div>
 
@@ -529,7 +565,8 @@
                 +7 (4922) 40-49-37
               </a>
               <a href="mailto:sales@forma-box.ru" class="footer__contact footer__contact-text">
-                <img class="footer__contact-icon" src="<%=require('./img/icons/mail.svg')%>" alt="иконка электронной почты" />
+                <img class="footer__contact-icon" src="<%=require('./img/icons/mail.svg')%>"
+                  alt="иконка электронной почты" />
                 sales@forma-box.ru
               </a>
             </div>
@@ -546,7 +583,7 @@
             <p class="footer__copy-rights-text footer__text_color_grey">
               Общество с&nbsp;ограниченной ответственностью &laquo;Формабокс&raquo; Formabox, LLC
             </p>
-            <a href="#" class="footer__copy-rights-text footer__text_color_grey footer__text_type_link">
+            <a href="#" class="footer__copy-rights-text footer__text_color_grey footer__text_type_link footer__border-top-style_solid">
               Политика конфиденциальности
             </a>
           </div>

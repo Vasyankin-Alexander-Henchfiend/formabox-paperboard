@@ -1,0 +1,15 @@
+.slider__image {
+    height: 101%;
+    margin-left: -387px;
+    margin-top: -4px;
+}
+
+@media screen and (min-width: 425px) {
+    .slider__image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        margin: 0;
+    }
+
+}

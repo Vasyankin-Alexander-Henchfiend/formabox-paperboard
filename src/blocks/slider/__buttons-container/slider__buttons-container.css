@@ -1,0 +1,15 @@
+.slider__buttons-container {
+    visibility: hidden;
+    position: absolute;
+    bottom: 32px;
+    right: 16px;
+    width: 152px;
+    height: 64px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .slider__buttons-container {
+        visibility: visible;
+    }
+}

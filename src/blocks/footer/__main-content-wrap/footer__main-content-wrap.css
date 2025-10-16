@@ -12,6 +12,6 @@
 
 @media screen and (min-width: 1292px) {
     .footer__main-content-wrap {
-        grid-template-rows: auto 111px;
+        grid-template-rows: auto 104px;
     }
 }

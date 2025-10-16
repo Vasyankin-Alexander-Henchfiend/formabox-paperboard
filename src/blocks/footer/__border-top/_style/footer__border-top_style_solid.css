@@ -1,0 +1,9 @@
+.footer__border-top_style_solid {
+    border-top: 1px solid rgba(199, 195, 193, 0.64);
+}
+
+@media screen and (min-width: 768px) {
+    .footer__border-top-style_solid {
+        border-top: none;
+    }
+}

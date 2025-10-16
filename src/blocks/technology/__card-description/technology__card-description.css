@@ -1,0 +1,24 @@
+.technology__card-description {
+    padding: 20px 16px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 960px) {
+    .technology__card-description {
+        width: 37%;
+        padding: 32px;
+        gap: 32px;
+    }
+}
+
+@media screen and (min-width: 1292px) {
+    .technology__card-description {
+        padding: 64px;
+        gap: 66px;
+        width: 34%;
+    }
+}

@@ -1,0 +1,9 @@
+.specs-list__item_margin-bottom_small {
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+    .specs-list__item_margin-bottom_small {
+        margin-bottom: 0px;
+    }
+}

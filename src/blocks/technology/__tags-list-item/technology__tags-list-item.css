@@ -1,0 +1,15 @@
+.technology__tags-list-item {
+    font-family: Graphik LCG;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    border-radius: 40px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+    .technology__tags-list-item {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,15 @@
+.technology__card-description-list {
+    color: #8c7d76;
+    margin: 8px 0 0 13px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+@media screen and (min-width: 960px) {
+    .technology__card-description-list {
+        gap: 6px;
+        margin-left: 23px;
+    }
+}

@@ -1,0 +1,37 @@
+.slider__image-wrap {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+
+.slider__image-wrap::before {
+    width: 1361px;
+    height: 1015px;
+    opacity: .9;
+    top: 333px;
+    left: -776px;
+    mix-blend-mode: Multiply;
+    background: #17212a;
+    filter: blur(200px);
+    pointer-events: none;
+    position: absolute;
+    content: "";
+    transform: translateZ(0);
+}
+
+.slider__image-wrap::after {
+    width: 599px;
+    height: 1100px;
+    opacity: .4;
+    top: 110px;
+    left: -323px;
+    mix-blend-mode: Multiply;
+    background: #17212A;
+    filter: blur(200px);
+    pointer-events: none;
+    position: absolute;
+    content: "";
+    transform: translateZ(0);
+}

@@ -1,0 +1,16 @@
+.slider__button {
+    font-family: Graphik LCG;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 16px 40px;
+    border-radius: 100px;
+    background-color: #38AB57;
+    display: flex;
+    gap: 10px;
+    width: 197px;
+    height: 48px;
+    box-sizing: border-box;
+}

@@ -7,11 +7,37 @@
 @import url("../blocks/page/page.css");
 
 @import url("../blocks/header/header.css");
+@import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__menu-button/header__menu-button.css");
+@import url("../blocks/header/__menu-icon/header__menu-icon.css");
+@import url("../blocks/header/__wrap/header__wrap.css");
+@import url("../blocks/header/__menu-wrap/_opacity/header__menu-wrap_opacity_60.css");
+@import url("../blocks/header/__menu-wrap/header__menu-wrap.css");
+@import url("../blocks/header/__menu/header__menu.css");
+@import url("../blocks/header/__menu-text/header__menu-text.css");
+@import url("../blocks/header/__menu-text/_size/header__menu-text_size_sml.css");
+@import url("../blocks/header/__search-icon/header__search-icon.css");
+@import url("../blocks/header/__search-button/header__search-button.css");
+@import url("../blocks/header/__contact/header__contact.css");
+@import url("../blocks/header/__links-wraper/header__links-wraper.css");
+@import url("../blocks/header/__links-wraper/_gap/header__links-wraper_gap_48.css");
+@import url("../blocks/header/__links-wraper/_gap/header__links-wraper_gap_56.css");
+@import url("../blocks/header/__menu-link/header__menu-link.css");
+@import url("../blocks/header/__menu-border/header__menu-border.css");
 
 @import url("../blocks/content/content.css");
 
 @import url("../blocks/slider/slider.css");
 @import url("../blocks/slider/__text/slider__text.css");
+@import url("../blocks/slider/__button/slider__button.css");
+@import url("../blocks/slider/__buttons-container/slider__buttons-container.css");
+@import url("../blocks/slider/__buttons-wrap/slider__buttons-wrap.css");
+@import url("../blocks/slider/__image-wrap/slider__image-wrap.css");
+@import url("../blocks/slider/__image/slider__image.css");
+@import url("../blocks/slider/__text-container/slider__text-container.css");
+@import url("../blocks/slider/swiper/swiper.css");
+@import url("../blocks/slider/__pagination-container/slider__pagination-container.css");
+@import url("../blocks/slider/__pagination-wraper/slider__pagination-wraper.css");
 
 @import url("../blocks/about/about.css");
 @import url("../blocks/about/__title/about__title.css");
@@ -26,14 +52,23 @@
 @import url("../blocks/about/__video-preview/about__video-preview.css");
 @import url("../blocks/about/__video-preview-container/about__video-preview-container.css");
 @import url("../blocks/about/__video-preview-container/_display/about__video-preview-container_display_none.css");
-
-/* @import url("../blocks/about"); */
+@import url("../blocks/about/__specs-list-container/about__specs-list-container.css");
 
 @import url("../blocks/products/products.css");
 @import url("../blocks/products/__title/products__title.css");
 @import url("../blocks/products/__subtitle/products__subtitle.css");
 @import url("../blocks/products/__list-item-title/products__list-item-title.css");
 @import url("../blocks/products/__list-item-text/products__list-item-text.css");
+@import url("../blocks/products/__list-button-icon/products__list-button-icon.css");
+@import url("../blocks/products/__list-button/products__list-button.css");
+@import url("../blocks/products/__list-item-image-wrap/products__list-item-image-wrap.css");
+@import url("../blocks/products/__list-item-image/products__list-item-image.css");
+@import url("../blocks/products/__list-text-container/products__list-text-container.css");
+@import url("../blocks/products/__list-item-image/products__list-item-image.css");
+@import url("../blocks/products/__list-item-image-wrap/products__list-item-image-wrap.css");
+@import url("../blocks/products/__list-item/products__list-item.css");
+@import url("../blocks/products/__list/products__list.css");
+@import url("../blocks/products/__text-container/products__text-container.css");
 
 @import url("../blocks//technology/technology.css");
 @import url("../blocks//technology/__title/technology__title.css");
@@ -41,6 +76,19 @@
 @import url("../blocks//technology/__card-description-title/technology__card-description-title.css");
 @import url("../blocks//technology/__card-description-subtitle/technology__card-description-subtitle.css");
 @import url("../blocks//technology/__card-description-list-item/technology__card-description-list-item.css");
+@import url("../blocks//technology/__card-description/technology__card-description.css");
+@import url("../blocks//technology/__card-image/technology__card-image.css");
+@import url("../blocks//technology/__card-image-container/technology__card-image-container.css");
+@import url("../blocks//technology/__card-container/technology__card-container.css");
+@import url("../blocks//technology/__tags-list-item/_active/technology__tags-list-item_active.css");
+@import url("../blocks//technology/__tags-list-item/technology__tags-list-item.css");
+@import url("../blocks//technology/__tags-list/technology__tags-list.css");
+@import url("../blocks//technology/__main-image/technology__main-image.css");
+@import url("../blocks//technology/__main-image-wrap/technology__main-image-wrap.css");
+@import url("../blocks//technology/__title-container/technology__title-container.css");
+@import url("../blocks//technology/__card-description-container/technology__card-description-container.css");
+@import url("../blocks//technology/__specs-list/technology__specs-list.css");
+@import url("../blocks//technology/__card-description-list/technology__card-description-list.css");
 
 @import url("../blocks/specs/specs.css");
 @import url("../blocks/specs/__title/specs-list__title.css");
@@ -48,6 +96,13 @@
 @import url("../blocks/specs/__title/_size/specs-list__title_size_small.css");
 @import url("../blocks/specs/__title/_size/specs-list__title_size_bg-to-sl.css");
 @import url("../blocks/specs/__subtitle/specs-list__subtitle.css");
+@import url("../blocks/specs/__item-text-container/specs-list__item-text-container.css");
+@import url("../blocks/specs/__item-icon/specs-list__item-icon.css");
+@import url("../blocks/specs/__item/_margin-bottom/specs-list__item_margin-bottom_small.css");
+@import url("../blocks/specs/__item/_gap/specs-list__item_gap_big.css");
+@import url("../blocks/specs/__item/_big/specs-list__item_big.css");
+@import url("../blocks/specs/__item/specs-list__item.css");
+@import url("../blocks/specs/_item-size/specs-list_item-size_bg.css");
 
 @import url("../blocks/feedback-form/feedback-form.css");
 @import url("../blocks/feedback-form/__title/feedback-form__title.css");
@@ -74,7 +129,6 @@
 @import url("../blocks/footer/__conf-policy-wrap/footer__conf-policy-wrap.css");
 @import url("../blocks/footer/__copy-right-wrap/footer__copy-right-wrap.css");
 @import url("../blocks/footer/__copy-rights-text/footer__copy-rights-text.css");
-
 @import url("../blocks/footer/__disclaimer-container/footer__disclaimer-container.css");
 @import url("../blocks/footer/__navigation-link/footer__navigation-link.css");
 @import url("../blocks/footer/__navigation-link/_opacity/footer__navigation-link_opacity_60.css");
@@ -89,6 +143,14 @@
 @import url("../blocks/footer/__text/_type/footer__text_type_link.css");
 @import url("../blocks/footer/__text/_color/footer__text_color_grey.css");
 @import url("../blocks/footer/__adress/footer__adress.css");
-/* @import url("../blocks/footer"); */
+@import url("../blocks/footer/__border-top/_style/footer__border-top_style_solid.css");
 
 @import url("../blocks/navigation-menu/navigation-menu.css");
+@import url("../blocks/navigation-menu/__contact/navigation-menu__contact.css");
+@import url("../blocks/navigation-menu/__link/_opacity/navigation-menu__link_opacity_60.css");
+@import url("../blocks/navigation-menu/__link/navigation-menu__link.css");
+@import url("../blocks/navigation-menu/__links-wrapper/navigation-menu__links-wrapper.css");
+@import url("../blocks/navigation-menu/__search/navigation-menu__search.css");
+@import url("../blocks/navigation-menu/__close-button-icon/navigation-menu__close-button-icon.css");
+@import url("../blocks/navigation-menu/__close-button/navigation-menu__close-button.css");
+@import url("../blocks/navigation-menu/__header/navigation-menu__header.css");

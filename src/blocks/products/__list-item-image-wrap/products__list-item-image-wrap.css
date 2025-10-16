@@ -1,0 +1,24 @@
+.products__list-item-image-wrap {
+    height: 160px;
+    overflow: hidden;
+    width: 100%;
+    background: #f8f3f3;
+}
+
+@media screen and (min-width: 768px) {
+    .products__list-item-image-wrap {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 40%;
+        background: none;
+        height: 100%;
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1292px) {
+    .products__list-item-image-wrap {
+        width: 70%;
+    }
+}

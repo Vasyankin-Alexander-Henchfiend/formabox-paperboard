@@ -1,0 +1,10 @@
+.header__menu-border {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 1292px) {
+    .header__menu-border {
+        padding-top: 20px;
+    }
+}

@@ -8,11 +8,13 @@
         flex-direction: column;
         border-left: 1px dashed hsla(20, 5%, 77%, .64);
         box-sizing: border-box;
+        align-items: flex-start;
     }
 }
 
 @media screen and (min-width: 1292px) {
     .footer__links-contacts-wrap {
         border: none;
+        align-items: normal;
     }
 }

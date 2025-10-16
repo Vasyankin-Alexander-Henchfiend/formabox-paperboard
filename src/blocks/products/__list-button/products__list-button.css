@@ -1,0 +1,10 @@
+.products__list-button {
+    visibility: hidden;
+    width: 56px;
+    height: 56px;
+    background-color: #38AB57;
+    border-radius: 100px;
+    position: absolute;
+    left: 32px;
+    bottom: 16px;
+}

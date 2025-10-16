@@ -1,0 +1,24 @@
+.technology__tags-list {
+    margin: 24px 0;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+    .technology__tags-list {
+        gap: 24px;
+        margin-top: 36px;
+    }
+}
+
+@media screen and (min-width: 1292px) {
+    .technology__tags-list {
+        gap: 32px;
+        margin-top: 48px;
+    }
+}

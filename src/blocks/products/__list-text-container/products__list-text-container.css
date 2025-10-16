@@ -1,0 +1,19 @@
+.products__list-text-container {
+    padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .products__list-text-container {
+        padding: 32px;
+        width: 60%;
+        max-width: 340px;
+    }
+}
+
+@media screen and (min-width: 1292px) {
+    .products__list-text-container {
+        width: 100%;
+        box-sizing: border-box;
+        max-width: 404px;
+    }
+}

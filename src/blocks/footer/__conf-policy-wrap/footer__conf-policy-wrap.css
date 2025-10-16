@@ -26,11 +26,9 @@
 @media screen and (min-width: 1292px) {
     .footer__conf-policy-wrap {
         width: 68.1%;
-        border-left: 1px solid rgba(199, 195, 193, 0.64);
-        padding-left: 94px;
         box-sizing: border-box;
         justify-content: space-between;
-        padding: 40px 0;
+        padding: 40px 0 40px 93px;
     }
 
     .footer__conf-policy-wrap .footer__text:last-child {
@@ -43,6 +41,6 @@
         width: 100vw;
         position: absolute;
         left: 0;
-        top: 0;
+        top: 8px;
     }
 }

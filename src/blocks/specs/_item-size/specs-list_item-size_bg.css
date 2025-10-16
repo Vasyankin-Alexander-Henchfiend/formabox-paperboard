@@ -1,0 +1,6 @@
+@media screen and (min-width: 1292px) {
+    .specs-list_item-size_bg {
+        justify-content: normal;
+        gap: 110px;
+    }
+}

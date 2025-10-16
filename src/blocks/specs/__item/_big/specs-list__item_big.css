@@ -1,0 +1,6 @@
+@media screen and (min-width: 1024px) {
+    .specs-list__item_big {
+        width: 100%;
+        max-width: 380px;
+    }
+}

@@ -1,0 +1,21 @@
+.technology__title-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 75% auto;
+    align-items: center;
+    row-gap: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    .technology__title-container {
+        row-gap: 12px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .technology__title-container {
+        row-gap: 16px;
+        align-items: end;
+        justify-content: space-between;
+    }
+}

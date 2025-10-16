@@ -1,0 +1,29 @@
+.slider__text-container {
+    position: relative;
+    align-items: flex-start;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 28px;
+    padding-bottom: 32px;
+    box-sizing: border-box;
+    width: calc(100% - 32px);
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+    .slider__text-container {
+        width: calc(100% - 64px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .slider__text-container {
+        padding-bottom: 80px;
+        gap: 40px;
+    }
+}

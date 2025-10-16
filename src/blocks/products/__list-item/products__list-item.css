@@ -1,0 +1,110 @@
+.products__list-item {
+    width: 288px;
+    box-shadow: 0px 0px 12px 0px #0000001f;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.products__list-item-text:last-child {
+    margin-bottom: 0;
+}
+
+.products__list-item:first-child .products__list-item-image {
+    scale: 1.16;
+    margin-top: 21px;
+}
+
+.products__list-item:nth-child(2) .products__list-item-image {
+    scale: 0.9;
+    margin-top: 1px;
+}
+
+.products__list-item:nth-child(3) .products__list-item-image,
+.products__list-item:nth-child(4) .products__list-item-image {
+    margin-top: -11px;
+}
+
+.products__list-item:last-child .products__list-item-image {
+    scale: 1.16;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .products__list-item {
+        position: relative;
+        width: 100%;
+        background: #f8f3f3;
+        min-height: 250px;
+    }
+
+    .products__list-item:hover .products__list-button {
+        visibility: visible;
+    }
+
+    .products__list-item:last-child .products__list-item-image {
+        margin-top: 60px;
+        margin-left: 60px;
+        scale: 1.46;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .products__list-item {
+        border-radius: 24px;
+        grid-column: span 4;
+    }
+
+    .products__list-item:nth-child(3),
+    .products__list-item:nth-child(4) {
+        grid-column: span 2;
+    }
+
+    .products__list-item:nth-child(3) .products__list-item-image-wrap,
+    .products__list-item:nth-child(4) .products__list-item-image-wrap {
+        width: 70%;
+        height: 70%;
+    }
+}
+
+@media screen and (min-width: 1292px) {
+    .products__list-item {
+        grid-column: span 2;
+    }
+
+    .products__list-item:nth-child(3),
+    .products__list-item:nth-child(4) {
+        grid-column: span 1;
+    }
+
+    .products__list-item:first-child .products__list-item-image {
+        margin-left: 148px;
+        margin-top: 58px;
+        scale: 1;
+    }
+
+    .products__list-item:nth-child(2) .products__list-item-image {
+        margin-left: 123px;
+        margin-top: 0;
+        scale: .7;
+    }
+
+    .products__list-item:nth-child(3) .products__list-item-image,
+    .products__list-item:nth-child(4) .products__list-item-image {
+        margin-top: 174px;
+        width: 100%;
+    }
+
+    .products__list-item:last-child .products__list-item-image {
+        margin-left: 197px;
+        margin-top: 184px;
+        scale: 1.96;
+    }
+
+    .products__list-item:nth-child(3) .products__list-item-image-wrap,
+    .products__list-item:nth-child(4) .products__list-item-image-wrap {
+        width: 100%;
+        height: 100%;
+    }
+}

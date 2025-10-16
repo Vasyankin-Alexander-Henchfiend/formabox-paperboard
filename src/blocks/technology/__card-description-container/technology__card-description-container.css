@@ -1,0 +1,7 @@
+@media screen and (min-width: 960px) {
+    .technology__card-description-container {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+}

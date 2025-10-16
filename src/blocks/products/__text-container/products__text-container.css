@@ -1,0 +1,12 @@
+.products__text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 704px;
+}
+
+@media screen and (min-width: 1024px) {
+    .products__text-container {
+        gap: 16px;
+    }
+}

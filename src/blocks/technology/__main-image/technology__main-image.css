@@ -1,0 +1,19 @@
+.technology__main-image {
+    width: 58.02px;
+    height: 54px;
+}
+
+@media screen and (min-width: 768px) {
+    .technology__main-image {
+        height: 108px;
+        width: 116.04px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .technology__main-image {
+        height: 135px;
+        width: 145.06px;
+        margin-right: 20px;
+    }
+}

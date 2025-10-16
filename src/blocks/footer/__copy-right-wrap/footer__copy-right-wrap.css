@@ -10,9 +10,10 @@
 
 @media screen and (min-width: 1292px) {
     .footer__copy-right-wrap {
+        border-right: 1px solid rgba(199, 195, 193, 0.64);
         text-align: unset;
-        width: 31.8888%;
-        border: none;
+        width: 31.8%;
+        border-top: none;
         padding: 40px 0;
     }
 }

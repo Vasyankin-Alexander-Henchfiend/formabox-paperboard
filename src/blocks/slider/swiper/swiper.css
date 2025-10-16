@@ -1,0 +1,51 @@
+.swiper-container {
+    height: 560px;
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .swiper-container {
+        height: 734px;
+    }
+}
+
+@media screen and (min-width: 1292px) {
+    .swiper-container {
+        height: 808px;
+    }
+}
+
+.slider .swiper-pagination {
+    bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .slider .swiper-pagination {
+        visibility: hidden;
+    }
+}
+
+.slider .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background-color: #38AB57;
+}
+
+.swiper-container .swiper-button-prev,
+.swiper-container .swiper-button-next {
+    width: 64px;
+    height: 64px;
+    border: 1px solid #FFFFFF3D;
+    border-radius: 60px;
+    background-image: url(../../../img/icons/chevron.svg);
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    background-position: center;
+    box-sizing: border-box;
+    margin: 0 !important;
+    top: 0 !important;
+}
+
+.swiper-container .swiper-button-prev {
+    transform: rotate(180deg);
+}
