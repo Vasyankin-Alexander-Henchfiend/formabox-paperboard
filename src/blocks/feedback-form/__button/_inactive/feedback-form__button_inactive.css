@@ -1,0 +1,4 @@
+.feedback-form__button_inactive {
+    opacity: 40%;
+    pointer-events: none;
+}

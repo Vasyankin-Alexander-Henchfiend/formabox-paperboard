@@ -10,6 +10,18 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .technology {
+    margin-top: 107px;
+  }
+}
+
+@media screen and (min-width: 1292px) {
+  .technology {
+    margin-top: 130px;
+  }
+}
+
 .technology__title-container {
   display: grid;
   width: 100%;
@@ -21,6 +33,12 @@
 @media screen and (min-width: 768px) {
   .technology__title-container {
     row-gap: 12px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .technology__title-container {
+    row-gap: 16px;
   }
 }
 
@@ -49,6 +67,13 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .technology__main-image {
+    height: 135px;
+    width: 145.06px;
+  }
+}
+
 .technology__tags-list {
   margin: 24px 0;
   width: 100%;
@@ -58,6 +83,20 @@
   flex-direction: row;
   align-items: center;
   gap: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+  .technology__tags-list {
+    gap: 24px;
+    margin: 36px 0;
+  }
+}
+
+@media screen and (min-width: 1292px) {
+  .technology__tags-list {
+    gap: 32px;
+    margin: 48px 0;
+  }
 }
 
 .technology__tags-list-item {
@@ -92,6 +131,12 @@
   margin-bottom: 32px;
 }
 
+@media screen and (min-width: 960px) {
+  .technology__card-container {
+    flex-direction: row;
+  }
+}
+
 .technology__card-image-container {
   width: 100%;
   height: 200px;
@@ -110,6 +155,14 @@
   }
 }
 
+@media screen and (min-width: 960px) {
+  .technology__card-image-container {
+    height: auto;
+    max-width: 917px;
+    width: 63%;
+  }
+}
+
 .technology__card-image {
   object-fit: cover;
   width: 100%;
@@ -125,12 +178,34 @@
   }
 }
 
+@media screen and (min-width: 960px) {
+  .technology__card-image {
+    min-height: 100%;
+  }
+}
+
 .technology__card-description {
   padding: 20px 16px 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 18px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 960px) {
+  .technology__card-description {
+    width: 37%;
+    padding: 32px;
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1292px) {
+  .technology__card-description {
+    padding: 64px;
+    gap: 64px;
+  }
 }
 
 .technology__card-description-list {

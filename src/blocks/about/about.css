@@ -63,6 +63,7 @@
 @media screen and (min-width: 768px) {
   .about__video-wrap {
     width: 50%;
+    max-width: 736px;
   }
 }
 

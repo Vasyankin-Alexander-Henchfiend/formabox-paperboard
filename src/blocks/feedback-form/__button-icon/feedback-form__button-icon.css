@@ -1,0 +1,11 @@
+.feedback-form__button-icon {
+    width: 16px;
+    height: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+    .feedback-form__button-icon {
+        width: 24px;
+        height: 24px;
+    }
+}

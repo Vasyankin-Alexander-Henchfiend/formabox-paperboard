@@ -37,12 +37,19 @@
 @import url("../blocks/specs/__title/_size/specs-list__title_size_small.css");
 @import url("../blocks/specs/__subtitle/specs-list__subtitle.css");
 
-
 @import url("../blocks/feedback-form/feedback-form.css");
 @import url("../blocks/feedback-form/__title/feedback-form__title.css");
 @import url("../blocks/feedback-form/__subtitle/feedback-form__subtitle.css");
+@import url("../blocks/feedback-form/__button/feedback-form__button.css");
+@import url("../blocks/feedback-form/__button/_text/feedback-form__button_text.css");
+@import url("../blocks/feedback-form/__button/_inactive/feedback-form__button_inactive.css");
+@import url("../blocks/feedback-form/__input/feedback-form__input.css");
+@import url("../blocks/feedback-form/__input/_text/feedback-form__input_text.css");
+@import url("../blocks/feedback-form/__button-icon/feedback-form__button-icon.css");
+@import url("../blocks/feedback-form/__input-error/feedback-form__input-error.css");
+@import url("../blocks/feedback-form/__form/feedback-form__form.css");
+@import url("../blocks/feedback-form/__text-container/feedback-form__text-container.css");
 
 @import url("../blocks/footer/footer.css");
-
 
 @import url("../blocks/navigation-menu/navigation-menu.css");

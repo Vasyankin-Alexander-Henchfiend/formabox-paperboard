@@ -52,7 +52,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1292px) {
   .specs-list__item-icon {
     width: 48px;
     height: 48px;

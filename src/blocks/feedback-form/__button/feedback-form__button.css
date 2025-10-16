@@ -1,0 +1,21 @@
+.feedback-form__button {
+    width: 191px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #38ab57;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+    .feedback-form__button {
+        width: 221px;
+        height: 56px;
+    }
+}

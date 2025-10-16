@@ -30,6 +30,27 @@
   gap: 16px;
 }
 
+@media screen and (min-width: 1024px) {
+  .products__list {
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    grid-template-rows: repeat(4, 350px);
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1292px) {
+  .products__list {
+
+    grid-template-columns: repeat(4, 23%);
+    grid-template-rows: repeat(2, 400px);
+    gap: 32px;
+    justify-content: none;
+  }
+}
+
 .products__list-item {
   width: 288px;
   box-shadow: 0px 0px 12px 0px #0000001f;
@@ -48,6 +69,28 @@
 
   .products__list-item:hover .products__list-button {
     visibility: visible;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .products__list-item {
+    grid-column: span 4;
+  }
+
+  .products__list-item:nth-child(3),
+  .products__list-item:nth-child(4) {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (min-width: 1292px) {
+  .products__list-item {
+    grid-column: span 2;
+  }
+
+  .products__list-item:nth-child(3),
+  .products__list-item:nth-child(4) {
+    grid-column: span 1;
   }
 }
 
@@ -90,29 +133,34 @@
   .products__list-text-container {
     padding: 32px;
     width: 60%;
+    max-width: 340px;
   }
+}
+
+@media screen and (min-width: 1292px) {
+  .products__list-text-container {}
 }
 
 .products__list-item-text:last-child {
   margin-bottom: 0;
 }
 
-.products__list .products__list-item:first-child .products__list-item-image {
+.products__list-item:first-child .products__list-item-image {
   scale: 1.16;
   margin-top: 21px;
 }
 
-.products__list .products__list-item:nth-child(2) .products__list-item-image {
+.products__list-item:nth-child(2) .products__list-item-image {
   scale: 0.9;
   margin-top: 1px;
 }
 
-.products__list .products__list-item:nth-child(3) .products__list-item-image,
-.products__list .products__list-item:nth-child(4) .products__list-item-image {
+.products__list-item:nth-child(3) .products__list-item-image,
+.products__list-item:nth-child(4) .products__list-item-image {
   margin-top: -11px;
 }
 
-.products__list .products__list-item:last-child .products__list-item-image {
+.products__list-item:last-child .products__list-item-image {
   scale: 1.16;
   margin-top: 30px;
 }

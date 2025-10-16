@@ -1,0 +1,15 @@
+.feedback-form__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    max-width: 560px;
+}
+
+@media screen and (min-width: 1024px) {
+    .feedback-form__text-container {
+        gap: 16px;
+        max-width: 616px;
+    }
+}

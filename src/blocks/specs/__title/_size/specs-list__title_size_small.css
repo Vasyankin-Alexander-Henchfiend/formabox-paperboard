@@ -10,7 +10,7 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1292px) {
     .specs-list__title_size_small {
         font-size: 32px;
         line-height: 100%;

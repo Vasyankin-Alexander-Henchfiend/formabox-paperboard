@@ -1,0 +1,20 @@
+.feedback-form__input-error {
+    color: red;
+    display: flex;
+    flex-direction: column;
+    font-family: Graphik LCG;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    justify-content: center;
+    left: 0;
+    line-height: 14px;
+    min-height: 16px;
+    opacity: 0;
+    transition: .3s;
+    width: 100%;
+}
+
+.feedback-form__input-error_active {
+    opacity: 1;
+}
