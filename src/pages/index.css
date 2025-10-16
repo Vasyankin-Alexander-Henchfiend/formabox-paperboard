@@ -63,5 +63,32 @@
 @import url("../blocks/feedback-form/__text-container/feedback-form__text-container.css");
 
 @import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__wrap/footer__wrap.css");
+@import url("../blocks/footer/__main-content-wrap/footer__main-content-wrap.css");
+@import url("../blocks/footer/__logo-adress-wrap/footer__logo-adress-wrap.css");
+@import url("../blocks/footer/__logo-container/footer__logo-container.css");
+@import url("../blocks/footer/__logo/footer__logo.css");
+@import url("../blocks/footer/__links-contacts-wrap/footer__links-contacts-wrap.css");
+@import url("../blocks/footer/__slogan/footer__slogan.css");
+@import url("../blocks/footer/__slogan-wrap/footer__slogan-wrap.css");
+@import url("../blocks/footer/__conf-policy-wrap/footer__conf-policy-wrap.css");
+@import url("../blocks/footer/__copy-right-wrap/footer__copy-right-wrap.css");
+@import url("../blocks/footer/__copy-rights-text/footer__copy-rights-text.css");
+
+@import url("../blocks/footer/__disclaimer-container/footer__disclaimer-container.css");
+@import url("../blocks/footer/__navigation-link/footer__navigation-link.css");
+@import url("../blocks/footer/__navigation-link/_opacity/footer__navigation-link_opacity_60.css");
+@import url("../blocks/footer/__navigation-links/footer__navigation-links.css");
+@import url("../blocks/footer/__adress-container/footer__adress-container.css");
+@import url("../blocks/footer/__contact/footer__contact.css");
+@import url("../blocks/footer/__contact-text/footer__contact-text.css");
+@import url("../blocks/footer/__contact-icon/footer__contact-icon.css");
+@import url("../blocks/footer/__contacts-container/footer__contacts-container.css");
+@import url("../blocks/footer/__copy-rights-text/footer__copy-rights-text.css");
+@import url("../blocks/footer/__text/_size/footer__text_size_bg.css");
+@import url("../blocks/footer/__text/_type/footer__text_type_link.css");
+@import url("../blocks/footer/__text/_color/footer__text_color_grey.css");
+@import url("../blocks/footer/__adress/footer__adress.css");
+/* @import url("../blocks/footer"); */
 
 @import url("../blocks/navigation-menu/navigation-menu.css");

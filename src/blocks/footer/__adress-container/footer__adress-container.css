@@ -1,0 +1,15 @@
+.footer__adress-container {
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 21px;
+}
+
+@media screen and (min-width: 1292px) {
+    .footer__adress-container {
+        margin-top: 61px;
+        gap: 16px;
+    }
+}

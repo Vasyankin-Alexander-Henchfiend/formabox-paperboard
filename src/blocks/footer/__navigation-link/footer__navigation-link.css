@@ -1,0 +1,9 @@
+.footer__navigation-link {
+    text-decoration: none;
+    color: #000000;
+    font-family: Graphik LCG;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    width: max-content;
+}

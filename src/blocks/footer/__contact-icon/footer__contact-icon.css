@@ -1,0 +1,11 @@
+.footer__contact-icon {
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (min-width: 1292px) {
+    .footer__contact-icon {
+        width: 24px;
+        height: 24px;
+    }
+}

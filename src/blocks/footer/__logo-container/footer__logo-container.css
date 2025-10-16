@@ -1,0 +1,20 @@
+.footer__logo-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+@media screen and (min-width: 1292px) {
+    .footer__logo-container {
+        padding: 64px 0;
+    }
+
+    .footer__logo-container::after {
+        content: "";
+        border-top: 1px solid rgba(199, 195, 193, 0.64);
+        width: 100vw;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}

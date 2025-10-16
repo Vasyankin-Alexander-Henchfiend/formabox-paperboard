@@ -1,0 +1,18 @@
+.footer__logo-adress-wrap {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__logo-adress-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1292px) {
+    .footer__logo-adress-wrap {
+        width: auto;
+        grid-row: span 2;
+        border-right: 1px solid rgba(199, 195, 193, 0.64);
+    }
+}

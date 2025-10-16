@@ -1,0 +1,20 @@
+.footer__slogan-wrap {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__slogan-wrap {
+        grid-column: span 2;
+    }
+}
+
+@media screen and (min-width: 1292px) {
+    .footer__slogan-wrap {
+        grid-column-start: span 2;
+        grid-column-end: none;
+        display: flex;
+        align-items: center;
+        padding: 35px 94px 16px;
+        box-sizing: border-box;
+    }
+}

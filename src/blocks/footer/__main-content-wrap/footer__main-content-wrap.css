@@ -1,0 +1,17 @@
+.footer__main-content-wrap {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__main-content-wrap {
+        display: grid;
+        grid-template-columns: 31.88888% 68.1%;
+        grid-template-rows: auto 64px;
+    }
+}
+
+@media screen and (min-width: 1292px) {
+    .footer__main-content-wrap {
+        grid-template-rows: auto 111px;
+    }
+}

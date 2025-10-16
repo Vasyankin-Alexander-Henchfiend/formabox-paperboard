@@ -1,0 +1,18 @@
+.footer__copy-right-wrap {
+    border-top: 1px solid rgba(199, 195, 193, 0.64);
+}
+
+@media screen and (min-width: 768px) {
+    .footer__copy-right-wrap {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1292px) {
+    .footer__copy-right-wrap {
+        text-align: unset;
+        width: 31.8888%;
+        border: none;
+        padding: 40px 0;
+    }
+}

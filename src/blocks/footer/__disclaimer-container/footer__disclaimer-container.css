@@ -1,0 +1,11 @@
+.footer__disclaimer-container {
+    width: 100%;
+}
+
+@media screen and (min-width: 1292px) {
+    .footer__disclaimer-container {
+        display: flex;
+        flex-direction: row-reverse;
+        /* padding: 40px 0; */
+    }
+}
