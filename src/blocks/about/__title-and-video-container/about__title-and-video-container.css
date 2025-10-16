@@ -1,0 +1,29 @@
+.about__title-and-video-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .about__title-and-video-container {
+        flex-direction: row;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .about__title-and-video-container {
+            align-items: stretch;
+            gap: 83px;
+            margin-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 1292px) {
+    .about__title-and-video-container {
+        margin-bottom: 120px;
+    }
+}

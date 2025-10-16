@@ -1,0 +1,20 @@
+.about__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    .about__text-container {
+        width: 50%;
+        max-width: 581px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .about__text-container {
+        gap: 0;
+    }
+}

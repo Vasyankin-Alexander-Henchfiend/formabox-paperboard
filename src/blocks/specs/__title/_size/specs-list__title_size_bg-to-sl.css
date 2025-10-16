@@ -1,0 +1,6 @@
+@media screen and (min-width: 1024px) {
+    .specs-list__title_size_bg-to-sl {
+        font-size: 32px;
+        line-height: 100%;
+    }
+}

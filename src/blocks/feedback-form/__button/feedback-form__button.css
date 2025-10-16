@@ -17,5 +17,6 @@
     .feedback-form__button {
         width: 221px;
         height: 56px;
+        margin-top: 24px;
     }
 }

@@ -1,0 +1,28 @@
+.about__video-wrap {
+    width: 288px;
+    aspect-ratio: 16/9;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+@media screen and (min-width: 425px) {
+    .about__video-wrap {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about__video-wrap {
+        width: 50%;
+        max-width: 736px;
+        border-radius: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .about__video-wrap {
+        border-radius: 24px;
+        width: 100%;
+    }
+}

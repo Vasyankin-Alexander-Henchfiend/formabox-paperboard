@@ -1,0 +1,11 @@
+.about__video-play-button-icon {
+    width: 7.5px;
+    height: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .about__video-play-button-icon {
+        width: 12px;
+        height: 16px
+    }
+}

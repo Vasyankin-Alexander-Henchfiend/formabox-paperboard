@@ -11,5 +11,6 @@
     .products__list-item-text {
         font-size: 16px;
         line-height: 24px;
+        margin-bottom: 16px;
     }
 }

@@ -39,6 +39,8 @@
 @media screen and (min-width: 1024px) {
   .technology__title-container {
     row-gap: 16px;
+    align-items: end;
+    justify-content: space-between;
   }
 }
 
@@ -71,6 +73,7 @@
   .technology__main-image {
     height: 135px;
     width: 145.06px;
+    margin-right: 20px;
   }
 }
 
@@ -88,14 +91,14 @@
 @media screen and (min-width: 1024px) {
   .technology__tags-list {
     gap: 24px;
-    margin: 36px 0;
+    margin-top: 36px;
   }
 }
 
 @media screen and (min-width: 1292px) {
   .technology__tags-list {
     gap: 32px;
-    margin: 48px 0;
+    margin-top: 48px;
   }
 }
 
@@ -134,6 +137,15 @@
 @media screen and (min-width: 960px) {
   .technology__card-container {
     flex-direction: row;
+    border-radius: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .technology__card-container {
+    border-radius: 24px;
+    max-height: 600px;
+    margin-bottom: 64px;
   }
 }
 
@@ -159,7 +171,7 @@
   .technology__card-image-container {
     height: auto;
     max-width: 917px;
-    width: 63%;
+    width: 65%;
   }
 }
 
@@ -204,7 +216,16 @@
 @media screen and (min-width: 1292px) {
   .technology__card-description {
     padding: 64px;
-    gap: 64px;
+    gap: 66px;
+    width: 34%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .technology__card-description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
   }
 }
 
@@ -215,4 +236,38 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+@media screen and (min-width: 960px) {
+  .technology__card-description-list {
+    gap: 6px;
+    margin-left: 23px;
+  }
+}
+
+.technology__specs-list {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  gap: 32px;
+}
+
+@media screen and (min-width: 1292px) {
+  .technology__specs-list {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .technology__specs-list {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+  }
 }

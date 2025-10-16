@@ -17,6 +17,17 @@
 @import url("../blocks/about/__title/about__title.css");
 @import url("../blocks/about/__subtitle/about__subtitle.css");
 @import url("../blocks/about/__text/about__text.css");
+@import url("../blocks/about/__title-and-video-container/about__title-and-video-container.css");
+@import url("../blocks/about/__text-container/about__text-container.css");
+@import url("../blocks/about/__video-play-button/about__video-play-button.css");
+@import url("../blocks/about/__video-play-button-icon/about__video-play-button-icon.css");
+@import url("../blocks/about/__video-wrap/about__video-wrap.css");
+@import url("../blocks/about/__video/about__video.css");
+@import url("../blocks/about/__video-preview/about__video-preview.css");
+@import url("../blocks/about/__video-preview-container/about__video-preview-container.css");
+@import url("../blocks/about/__video-preview-container/_display/about__video-preview-container_display_none.css");
+
+/* @import url("../blocks/about"); */
 
 @import url("../blocks/products/products.css");
 @import url("../blocks/products/__title/products__title.css");
@@ -35,6 +46,7 @@
 @import url("../blocks/specs/__title/specs-list__title.css");
 @import url("../blocks/specs/__title/_size/specs-list__title_size_big.css");
 @import url("../blocks/specs/__title/_size/specs-list__title_size_small.css");
+@import url("../blocks/specs/__title/_size/specs-list__title_size_bg-to-sl.css");
 @import url("../blocks/specs/__subtitle/specs-list__subtitle.css");
 
 @import url("../blocks/feedback-form/feedback-form.css");

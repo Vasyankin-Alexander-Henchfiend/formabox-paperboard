@@ -13,11 +13,30 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .products {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (min-width: 1292px) {
+  .products {
+    margin-top: 120px;
+    gap: 40px;
+  }
+}
+
 .products__text-container {
   display: flex;
   flex-direction: column;
   gap: 8px;
   max-width: 704px;
+}
+
+@media screen and (min-width: 1024px) {
+  .products__text-container {
+    gap: 16px;
+  }
 }
 
 .products__list {
@@ -43,11 +62,11 @@
 
 @media screen and (min-width: 1292px) {
   .products__list {
-
     grid-template-columns: repeat(4, 23%);
     grid-template-rows: repeat(2, 400px);
-    gap: 32px;
-    justify-content: none;
+    column-gap: 37px;
+    row-gap: 32px;
+    justify-content: normal;
   }
 }
 
@@ -74,6 +93,7 @@
 
 @media screen and (min-width: 1024px) {
   .products__list-item {
+    border-radius: 24px;
     grid-column: span 4;
   }
 
@@ -91,6 +111,11 @@
   .products__list-item:nth-child(3),
   .products__list-item:nth-child(4) {
     grid-column: span 1;
+  }
+
+  .products__list-item:nth-child(3) .products__list-item-image-wrap,
+  .products__list-item:nth-child(4) .products__list-item-image-wrap {
+    width: 100%;
   }
 }
 
@@ -110,6 +135,12 @@
     background: none;
     height: 100%;
     display: flex;
+  }
+}
+
+@media screen and (min-width: 1292px) {
+  .products__list-item-image-wrap {
+    width: 70%;
   }
 }
 
@@ -138,7 +169,11 @@
 }
 
 @media screen and (min-width: 1292px) {
-  .products__list-text-container {}
+  .products__list-text-container {
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 404px;
+  }
 }
 
 .products__list-item-text:last-child {
@@ -166,12 +201,39 @@
 }
 
 @media screen and (min-width: 768px) {
-  .products__list .products__list-item:last-child .products__list-item-image {
+  .products__list-item:last-child .products__list-item-image {
     margin-top: 60px;
     margin-left: 60px;
     scale: 1.46;
   }
 }
+
+@media screen and (min-width: 1292px) {
+  .products__list-item:first-child .products__list-item-image {
+    margin-left: 148px;
+    margin-top: 58px;
+    scale: 1;
+  }
+
+  .products__list-item:nth-child(2) .products__list-item-image {
+    margin-left: 123px;
+    margin-top: 0;
+    scale: .7;
+  }
+
+  .products__list-item:nth-child(3) .products__list-item-image,
+  .products__list-item:nth-child(4) .products__list-item-image {
+    margin-top: 174px;
+  }
+
+  .products__list-item:last-child .products__list-item-image {
+    margin-left: 197px;
+    margin-top: 184px;
+    scale: 1.96;
+  }
+}
+
+
 
 .products__list-button {
   visibility: hidden;

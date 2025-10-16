@@ -14,8 +14,7 @@
 
       <div id="navigation-menu" class="navigation-menu">
         <div class="navigation-menu__header">
-          <img class="header__logo" src="<%=require('./img/logo/logo-orange.svg')%>"
-            alt="логотип компании Formabox">
+          <img class="header__logo" src="<%=require('./img/logo/logo-orange.svg')%>" alt="логотип компании Formabox">
           <button id="navigation-menu-close-button" class="navigation-menu__close-button" type="button">
             <img class="navigation-menu__close-button-icon" src="<%=require('./img/icons/close.svg')%>"
               alt="иконка закрытия">
@@ -153,74 +152,78 @@
         </div>
 
         <!-- список спецификаций компании -->
-        <ul class="specs-list">
-          <li class="specs-list__item specs-list__item_margin-bottom_small">
-            <img src="<%=require('./img/icons/users.svg')%>" alt="Люди" class="specs-list__item-icon" />
-            <div class="specs-list__item-text-container">
-              <h3 class="specs-list__title specs-list__title_size_small">
-                Специалисты
-              </h3>
-              <p class="specs-list__subtitle">
-                для поиска упаковочных<br />решений
-              </p>
-            </div>
-          </li>
-          <li class="specs-list__item">
-            <img src="<%=require('./img/icons/settings.svg')%>" alt="Технологии" class="specs-list__item-icon" />
-            <div class="specs-list__item-text-container">
-              <h3 class="specs-list__title specs-list__title_size_small">
-                Лаборатория
-              </h3>
-              <p class="specs-list__subtitle">
-                входного сырья и готовой продукции
-              </p>
-            </div>
-          </li>
-          <li class="specs-list__item">
-            <img src="<%=require('./img/icons/heart.svg')%>" alt="Здоровье" class="specs-list__item-icon" />
-            <div class="specs-list__item-text-container">
-              <h3 class="specs-list__title specs-list__title_size_small">
-                Экологичность
-              </h3>
-              <p class="specs-list__subtitle">
-                Formabox производит упаковку из&nbsp;экологичных материалов
-              </p>
-            </div>
-          </li>
-          <li class="specs-list__item specs-list__item_margin-bottom_small">
-            <img src="<%=require('./img/icons/codepen.svg')%>" alt="Контрукция" class="specs-list__item-icon" />
-            <div class="specs-list__item-text-container">
-              <h3 class="specs-list__title specs-list__title_size_big">
-                12 000 <span>м&#178;</span>
-              </h3>
-              <p class="specs-list__subtitle">
-                Площадь производственно-складского комплекса
-              </p>
-            </div>
-          </li>
-          <li class="specs-list__item">
-            <img src="<%=require('./img/icons/layers.svg')%>" alt="Контрукция" class="specs-list__item-icon" />
-            <div class="specs-list__item-text-container">
-              <h3 class="specs-list__title specs-list__title_size_big">
-                12 млн <span>м&#178;</span>
-              </h3>
-              <p class="specs-list__subtitle">
-                Гофрокартона и&nbsp;гофропродукции в&nbsp;месяц
-              </p>
-            </div>
-          </li>
-          <li class="specs-list__item">
-            <img src="<%=require('./img/icons/repeat.svg')%>" alt="Контрукция" class="specs-list__item-icon" />
-            <div class="specs-list__item-text-container">
-              <h3 class="specs-list__title specs-list__title_size_big">
-                8 млн
-              </h3>
-              <p class="specs-list__subtitle">
-                Открытых и&nbsp;закрытых бумажных мешков в&nbsp;месяц
-              </p>
-            </div>
-          </li>
-        </ul>
+        <div class="about__specs-list-container">
+          <ul class="specs-list">
+            <li class="specs-list__item specs-list__item_margin-bottom_small">
+              <img src="<%=require('./img/icons/users.svg')%>" alt="Люди" class="specs-list__item-icon" />
+              <div class="specs-list__item-text-container">
+                <h3 class="specs-list__title specs-list__title_size_small">
+                  Специалисты
+                </h3>
+                <p class="specs-list__subtitle">
+                  для поиска упаковочных<br />решений
+                </p>
+              </div>
+            </li>
+            <li class="specs-list__item">
+              <img src="<%=require('./img/icons/settings.svg')%>" alt="Технологии" class="specs-list__item-icon" />
+              <div class="specs-list__item-text-container">
+                <h3 class="specs-list__title specs-list__title_size_small">
+                  Лаборатория
+                </h3>
+                <p class="specs-list__subtitle">
+                  входного сырья и готовой продукции
+                </p>
+              </div>
+            </li>
+            <li class="specs-list__item">
+              <img src="<%=require('./img/icons/heart.svg')%>" alt="Здоровье" class="specs-list__item-icon" />
+              <div class="specs-list__item-text-container">
+                <h3 class="specs-list__title specs-list__title_size_small">
+                  Экологичность
+                </h3>
+                <p class="specs-list__subtitle">
+                  Formabox производит упаковку из&nbsp;экологичных материалов
+                </p>
+              </div>
+            </li>
+          </ul>
+          <ul class="specs-list specs-list_item-size_bg">
+            <li class="specs-list__item specs-list__item_margin-bottom_small specs-list__item_big">
+              <img src="<%=require('./img/icons/codepen.svg')%>" alt="Контрукция" class="specs-list__item-icon" />
+              <div class="specs-list__item-text-container">
+                <h3 class="specs-list__title specs-list__title_size_big">
+                  12 000 <span>м&#178;</span>
+                </h3>
+                <p class="specs-list__subtitle">
+                  Площадь производственно-складского комплекса
+                </p>
+              </div>
+            </li>
+            <li class="specs-list__item specs-list__item_big">
+              <img src="<%=require('./img/icons/layers.svg')%>" alt="Контрукция" class="specs-list__item-icon" />
+              <div class="specs-list__item-text-container">
+                <h3 class="specs-list__title specs-list__title_size_big">
+                  12 млн <span>м&#178;</span>
+                </h3>
+                <p class="specs-list__subtitle">
+                  Гофрокартона и&nbsp;гофропродукции в&nbsp;месяц
+                </p>
+              </div>
+            </li>
+            <li class="specs-list__item specs-list__item_big">
+              <img src="<%=require('./img/icons/repeat.svg')%>" alt="Контрукция" class="specs-list__item-icon" />
+              <div class="specs-list__item-text-container">
+                <h3 class="specs-list__title specs-list__title_size_big">
+                  8 млн
+                </h3>
+                <p class="specs-list__subtitle">
+                  Открытых и&nbsp;закрытых бумажных мешков в&nbsp;месяц
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- секция Продукция -->
@@ -412,12 +415,12 @@
           </div>
         </div>
 
-        <!-- список спецификайий технологии -->
-        <ul class="specs-list">
+        <!-- список спецификаций технологии -->
+        <ul class="technology__specs-list">
           <li class="specs-list__item">
             <img src="<%=require('./img/icons/sliders.svg')%>" alt="Контрукция" class="specs-list__item-icon" />
             <div class="specs-list__item-text-container">
-              <h3 class="specs-list__title specs-list__title_size_big">
+              <h3 class="specs-list__title specs-list__title_size_big specs-list__title_size_bg-to-sl">
                 Автоматизация
               </h3>
               <p class="specs-list__subtitle">
@@ -428,10 +431,10 @@
           <li class="specs-list__item">
             <img src="<%=require('./img/icons/check-circle.svg')%>" alt="Контрукция" class="specs-list__item-icon" />
             <div class="specs-list__item-text-container">
-              <h3 class="specs-list__title specs-list__title_size_big" style="margin-left: 2px">
+              <h3 class="specs-list__title specs-list__title_size_big specs-list__title_size_bg-to-sl">
                 Производительность
               </h3>
-              <p class="specs-list__subtitle" style="margin-left: 1px">
+              <p class="specs-list__subtitle">
                 Наличие двух гофроагрегатов позволяет производить одновременно различные типы профилей
               </p>
             </div>
@@ -439,10 +442,10 @@
           <li class="specs-list__item">
             <img src="<%=require('./img/icons/codesandbox.svg')%>" alt="Контрукция" class="specs-list__item-icon" />
             <div class="specs-list__item-text-container">
-              <h3 class="specs-list__title specs-list__title_size_big" style="margin-left: 2px">
+              <h3 class="specs-list__title specs-list__title_size_big specs-list__title_size_bg-to-sl">
                 Ассортимент
               </h3>
-              <p class="specs-list__subtitle" style="margin-left: 1px">
+              <p class="specs-list__subtitle">
                 Наличие автоматического плосковысечного пресса позволяет расширить ассортимент выпускаемой продукции
               </p>
             </div>
@@ -460,21 +463,22 @@
           </p>
         </div>
         <form id="submit-form" class="feedback-form__form" name="submit-form" novalidate>
-          <input id="name-input" name="name-input" class="feedback-form__input feedback-form__input_text" placeholder="Ваше имя" type="text"
-            required minlength="2" maxlength="124" pattern="^[а-яА-ЯёЁa-zA-Z\s_\-]+$"
+          <input id="name-input" name="name-input" class="feedback-form__input feedback-form__input_text"
+            placeholder="Ваше имя" type="text" required minlength="2" maxlength="124" pattern="^[а-яА-ЯёЁa-zA-Z\s_\-]+$"
             data-error-message="Разрешены только латинские буквы, кириллические буквы, знаки дефиса и пробелы." />
           <span id="name-input-error"
             class="feedback-form__input-error name-input-error feedback-form__input-error_active"></span>
 
-          <input id="telephon-input" name="telephon-input" class="feedback-form__input feedback-form__input_text" placeholder="Телефон" type="tel"
-            required minlength="6" maxlength="16"
+          <input id="telephon-input" name="telephon-input" class="feedback-form__input feedback-form__input_text"
+            placeholder="Телефон" type="tel" required minlength="6" maxlength="16"
             pattern="^[\+]?[\(]?[0-9]{3}[\)]?[\-\s\.]?[0-9]{3}[\-\s\.]?[0-9]{4,6}$"
             data-error-message="Введен некорректный номер телефона" />
           <span id="telephon-input-error"
             class="feedback-form__input-error telephon-input-error feedback-form__input-error_active"></span>
 
-          <input id="email-input" name="email-input" class="feedback-form__input feedback-form__input_text" placeholder="Эл. почта" type="email"
-            required minlength="4" maxlength="124" pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+          <input id="email-input" name="email-input" class="feedback-form__input feedback-form__input_text"
+            placeholder="Эл. почта" type="email" required minlength="4" maxlength="124"
+            pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
             data-error-message="Введен некорректный адрес электронной почты" />
           <span id="email-input-error"
             class="feedback-form__input-error email-input-error feedback-form__input-error_active"></span>
@@ -492,7 +496,8 @@
 
         <div class="footer__logo-adress-wrap">
           <div class="footer__logo-container">
-            <img class="footer__logo" src="<%=require('./img/logo/logo-orange.svg')%>" alt="логотип компании Formabox" />
+            <img class="footer__logo" src="<%=require('./img/logo/logo-orange.svg')%>"
+              alt="логотип компании Formabox" />
           </div>
           <div class="footer__adress-container">
             <p class="footer__contact-text footer__adress">
@@ -504,7 +509,7 @@
             </p>
           </div>
         </div>
-  
+
         <div class="footer__links-contacts-wrap">
           <nav class="footer__navigation-links">
             <a class="footer__navigation-link" href="#">О нас</a>
@@ -517,7 +522,7 @@
             <a class="footer__navigation-link" href="#">Контакты</a>
             <a class="footer__navigation-link footer__navigation-link_opacity_60" href="#">Оставить заявку</a>
           </nav>
-    
+
           <div class="footer__contacts-container">
             <a href="callto:+74922404937" class="footer__contact footer__contact-text">
               <img src="<%=require('./img/icons/phone.svg')%>" alt="иконка телефона" />

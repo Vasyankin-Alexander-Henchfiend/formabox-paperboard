@@ -16,5 +16,6 @@
     width: calc(100% - 64px);
     border-radius: 24px;
     padding: 80px 0px 96px;
+    margin-top: 108px;
   }
 }
